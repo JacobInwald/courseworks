@@ -1,0 +1,54 @@
+# RUN: choco-opt %s | filecheck %s
+
+def fib(n: int) -> int:
+    if n <= 1:
+        return 1
+    return fib(n-1) + fib(n-2)
+
+
+# CHECK:     builtin.module {
+# CHECK-NEXT:   "choco.ast.program"() ({
+# CHECK-NEXT:     "choco.ast.func_def"() <{"func_name" = "fib"}> ({
+# CHECK-NEXT:       "choco.ast.typed_var"() <{"var_name" = "n"}> ({
+# CHECK-NEXT:         "choco.ast.type_name"() <{"type_name" = "int"}> : () -> ()
+# CHECK-NEXT:       }) : () -> ()
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.type_name"() <{"type_name" = "int"}> : () -> ()
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.if"() ({
+# CHECK-NEXT:         "choco.ast.binary_expr"() <{"op" = "<="}> ({
+# CHECK-NEXT:           "choco.ast.id_expr"() <{"id" = "n"}> : () -> ()
+# CHECK-NEXT:         }, {
+# CHECK-NEXT:           "choco.ast.literal"() <{"value" = 1 : i32}> : () -> ()
+# CHECK-NEXT:         }) : () -> ()
+# CHECK-NEXT:       }, {
+# CHECK-NEXT:         "choco.ast.return"() ({
+# CHECK-NEXT:           "choco.ast.literal"() <{"value" = 1 : i32}> : () -> ()
+# CHECK-NEXT:         }) : () -> ()
+# CHECK-NEXT:       }, {
+# CHECK-NEXT:       ^0:
+# CHECK-NEXT:       }) : () -> ()
+# CHECK-NEXT:       "choco.ast.return"() ({
+# CHECK-NEXT:         "choco.ast.binary_expr"() <{"op" = "+"}> ({
+# CHECK-NEXT:           "choco.ast.call_expr"() <{"func" = "fib"}> ({
+# CHECK-NEXT:             "choco.ast.binary_expr"() <{"op" = "-"}> ({
+# CHECK-NEXT:               "choco.ast.id_expr"() <{"id" = "n"}> : () -> ()
+# CHECK-NEXT:             }, {
+# CHECK-NEXT:               "choco.ast.literal"() <{"value" = 1 : i32}> : () -> ()
+# CHECK-NEXT:             }) : () -> ()
+# CHECK-NEXT:           }) : () -> ()
+# CHECK-NEXT:         }, {
+# CHECK-NEXT:           "choco.ast.call_expr"() <{"func" = "fib"}> ({
+# CHECK-NEXT:             "choco.ast.binary_expr"() <{"op" = "-"}> ({
+# CHECK-NEXT:               "choco.ast.id_expr"() <{"id" = "n"}> : () -> ()
+# CHECK-NEXT:             }, {
+# CHECK-NEXT:               "choco.ast.literal"() <{"value" = 2 : i32}> : () -> ()
+# CHECK-NEXT:             }) : () -> ()
+# CHECK-NEXT:           }) : () -> ()
+# CHECK-NEXT:         }) : () -> ()
+# CHECK-NEXT:       }) : () -> ()
+# CHECK-NEXT:     }) : () -> ()
+# CHECK-NEXT:   }, {
+# CHECK-NEXT:   ^1:
+# CHECK-NEXT:   }) : () -> ()
+# CHECK-NEXT: }

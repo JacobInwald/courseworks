@@ -1,0 +1,16 @@
+# RUN: choco-lexer %s | filecheck %s
+
+def foo():
+    0 # Comment with newline
+
+# CHECK:      DEF:def
+# CHECK-NEXT: IDENTIFIER:foo
+# CHECK-NEXT: LROUNDBRACKET:(
+# CHECK-NEXT: RROUNDBRACKET:)
+# CHECK-NEXT: COLON::
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: INDENT
+# CHECK-NEXT: INTEGER:0
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: DEDENT
+# CHECK-NEXT: EOF

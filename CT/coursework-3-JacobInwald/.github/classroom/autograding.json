@@ -1,0 +1,664 @@
+{
+    "tests": [
+        {
+            "name": "pass.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/pass.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "print-integer-literal.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/print-integer-literal.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "fib.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/complete-programs/fib.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "str-to-int.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/complete-programs/str-to-int.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "variable-allocation-loop.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/code-size-optimization/variable-allocation-loop.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "variable-allocation.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/code-size-optimization/variable-allocation.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "pure-bool-function.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/code-size-optimization/pure-bool-function.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "associativity-folding.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/code-size-optimization/associativity-folding.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "if-constant.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/code-size-optimization/if-constant.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "variable-allocation-big.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/code-size-optimization/variable-allocation-big.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "pure-integer-function.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/code-size-optimization/pure-integer-function.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_add.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_add.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_if_else.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_if_else.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_is.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_is.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_eq.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_eq.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_ge.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_ge.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_mod.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_mod.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "or_no_side_effects.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/or_no_side_effects.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_lt.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_lt.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "or_side_effects.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/or_side_effects.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_div.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_div.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_or.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_or.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "and_side_effects.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/and_side_effects.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_gt.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_gt.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_and.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_and.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_minus.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_minus.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "if_else_side_effects.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/if_else_side_effects.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "if_else_no_side_effects.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/if_else_no_side_effects.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_le.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_le.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_ne.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_ne.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_mul.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_mul.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_unary_minus.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_unary_minus.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_not.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/single_op_not.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "and_no_side_effects.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/arithmetic-comparison-ops/and_no_side_effects.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "if-else-false.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/control-flow/if-else-false.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "if-else-true.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/control-flow/if-else-true.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single-if-false.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/control-flow/single-if-false.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single-if-true.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/control-flow/single-if-true.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "while-multiple-times.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/control-flow/while-multiple-times.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "equal.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/strings/equal.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single-str-def.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/strings/single-str-def.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "string-for-loop.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/strings/string-for-loop.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "index.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/strings/index.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "concat.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/strings/concat.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "read-str.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/strings/read-str.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "literals.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/strings/literals.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global-var.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/var-defs/global-var.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "multi-assign.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/var-defs/multi-assign.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "multi-assign-order.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/var-defs/multi-assign-order.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single-int-def.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/var-defs/single-int-def.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "rewrite-int-def.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/var-defs/rewrite-int-def.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single-bool-def.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/var-defs/single-bool-def.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "var-def-in-func.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/var-defs/var-def-in-func.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "multiple-defs.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/var-defs/multiple-defs.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list-index-oob-negative.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/lists/list-index-oob-negative.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "for-list.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/lists/for-list.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "combine-lists.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/lists/combine-lists.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list-index.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/lists/list-index.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "none-index.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/lists/none-index.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "for-none.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/lists/for-none.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list-none-len.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/lists/list-none-len.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list-len.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/lists/list-len.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list-index-oob.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/lists/list-index-oob.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list-of-string.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/lists/list-of-string.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "call-one-arg-with-return.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/function-calls/call-one-arg-with-return.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "call-one-arg.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/end-to-end/function-calls/call-one-arg.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        }
+    ]
+}

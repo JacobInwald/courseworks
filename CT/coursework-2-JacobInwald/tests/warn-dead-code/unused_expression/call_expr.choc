@@ -1,0 +1,8 @@
+# RUN: choco-opt -p check-assign-target,name-analysis,type-checking,warn-dead-code %s | filecheck %s
+
+def foo():
+    return
+
+foo()
+
+# CHECK:      builtin.module {

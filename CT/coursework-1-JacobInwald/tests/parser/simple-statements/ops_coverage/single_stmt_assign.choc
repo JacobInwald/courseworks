@@ -1,0 +1,15 @@
+# RUN: choco-opt %s | filecheck %s
+
+x = 1
+
+# CHECK:      builtin.module {
+# CHECK-NEXT:   "choco.ast.program"() ({
+# CHECK-NEXT:   ^0:
+# CHECK-NEXT:   }, {
+# CHECK-NEXT:     "choco.ast.assign"() ({
+# CHECK-NEXT:       "choco.ast.id_expr"() <{"id" = "x"}> : () -> ()
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.literal"() <{"value" = 1 : i32}> : () -> ()
+# CHECK-NEXT:     }) : () -> ()
+# CHECK-NEXT:   }) : () -> ()
+# CHECK-NEXT: }

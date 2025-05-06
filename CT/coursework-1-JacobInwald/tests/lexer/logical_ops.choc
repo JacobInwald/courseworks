@@ -1,0 +1,16 @@
+# RUN: choco-lexer %s | filecheck %s
+
+1 or 2 or 3 and not 4 and 5
+
+# CHECK:      INTEGER:1
+# CHECK-NEXT: OR:or
+# CHECK-NEXT: INTEGER:2
+# CHECK-NEXT: OR:or
+# CHECK-NEXT: INTEGER:3
+# CHECK-NEXT: AND:and
+# CHECK-NEXT: NOT:not
+# CHECK-NEXT: INTEGER:4
+# CHECK-NEXT: AND:and
+# CHECK-NEXT: INTEGER:5
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: EOF

@@ -1,0 +1,22 @@
+# RUN: choco-opt %s | filecheck %s
+
+def foo():
+    return []
+
+# CHECK:      builtin.module {
+# CHECK-NEXT:   "choco.ast.program"() ({
+# CHECK-NEXT:     "choco.ast.func_def"() <{"func_name" = "foo"}> ({
+# CHECK-NEXT:     ^0:
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.type_name"() <{"type_name" = "<None>"}> : () -> ()
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.return"() ({
+# CHECK-NEXT:         "choco.ast.list_expr"() ({
+# CHECK-NEXT:         ^1:
+# CHECK-NEXT:         }) : () -> ()
+# CHECK-NEXT:       }) : () -> ()
+# CHECK-NEXT:     }) : () -> ()
+# CHECK-NEXT:   }, {
+# CHECK-NEXT:   ^2:
+# CHECK-NEXT:   }) : () -> ()
+# CHECK-NEXT: }

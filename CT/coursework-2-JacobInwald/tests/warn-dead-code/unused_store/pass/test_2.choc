@@ -1,0 +1,78 @@
+# RUN: choco-opt -p check-assign-target,name-analysis,type-checking,warn-dead-code %s | filecheck %s
+
+def foo(y: int) -> int:
+    print("Side effect!")
+    return y
+
+x: int = 0
+y: int = 1
+x = foo(5)
+y = 1
+y = x + y
+x = foo(6)
+print(x)
+
+# CHECK: builtin.module {
+# CHECK-NEXT:   "choco.ast.program"() ({
+# CHECK-NEXT:     "choco.ast.func_def"() <{"func_name" = "foo"}> ({
+# CHECK-NEXT:       "choco.ast.typed_var"() <{"var_name" = "y"}> ({
+# CHECK-NEXT:         "choco.ast.type_name"() <{"type_name" = "int"}> : () -> ()
+# CHECK-NEXT:       }) : () -> ()
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.type_name"() <{"type_name" = "int"}> : () -> ()
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.call_expr"() <{"func" = "print", "type_hint" = !choco.ir.named_type<"<None>">}> ({
+# CHECK-NEXT:         "choco.ast.literal"() <{"value" = "Side effect!", "type_hint" = !choco.ir.named_type<"str">}> : () -> ()
+# CHECK-NEXT:       }) : () -> ()
+# CHECK-NEXT:       "choco.ast.return"() ({
+# CHECK-NEXT:         "choco.ast.id_expr"() <{"id" = "y", "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:       }) : () -> ()
+# CHECK-NEXT:     }) : () -> ()
+# CHECK-NEXT:     "choco.ast.var_def"() ({
+# CHECK-NEXT:       "choco.ast.typed_var"() <{"var_name" = "x"}> ({
+# CHECK-NEXT:         "choco.ast.type_name"() <{"type_name" = "int"}> : () -> ()
+# CHECK-NEXT:       }) : () -> ()
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.literal"() <{"value" = 0 : i32, "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:     }) : () -> ()
+# CHECK-NEXT:     "choco.ast.var_def"() ({
+# CHECK-NEXT:       "choco.ast.typed_var"() <{"var_name" = "y"}> ({
+# CHECK-NEXT:         "choco.ast.type_name"() <{"type_name" = "int"}> : () -> ()
+# CHECK-NEXT:       }) : () -> ()
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.literal"() <{"value" = 1 : i32, "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:     }) : () -> ()
+# CHECK-NEXT:   }, {
+# CHECK-NEXT:     "choco.ast.assign"() ({
+# CHECK-NEXT:       "choco.ast.id_expr"() <{"id" = "x", "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.call_expr"() <{"func" = "foo", "type_hint" = !choco.ir.named_type<"int">}> ({
+# CHECK-NEXT:         "choco.ast.literal"() <{"value" = 5 : i32, "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:       }) : () -> ()
+# CHECK-NEXT:     }) : () -> ()
+# CHECK-NEXT:     "choco.ast.assign"() ({
+# CHECK-NEXT:       "choco.ast.id_expr"() <{"id" = "y", "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.literal"() <{"value" = 1 : i32, "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:     }) : () -> ()
+# CHECK-NEXT:     "choco.ast.assign"() ({
+# CHECK-NEXT:       "choco.ast.id_expr"() <{"id" = "y", "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.binary_expr"() <{"op" = "+", "type_hint" = !choco.ir.named_type<"int">}> ({
+# CHECK-NEXT:         "choco.ast.id_expr"() <{"id" = "x", "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:       }, {
+# CHECK-NEXT:         "choco.ast.id_expr"() <{"id" = "y", "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:       }) : () -> ()
+# CHECK-NEXT:     }) : () -> ()
+# CHECK-NEXT:     "choco.ast.assign"() ({
+# CHECK-NEXT:       "choco.ast.id_expr"() <{"id" = "x", "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:     }, {
+# CHECK-NEXT:       "choco.ast.call_expr"() <{"func" = "foo", "type_hint" = !choco.ir.named_type<"int">}> ({
+# CHECK-NEXT:         "choco.ast.literal"() <{"value" = 6 : i32, "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:       }) : () -> ()
+# CHECK-NEXT:     }) : () -> ()
+# CHECK-NEXT:     "choco.ast.call_expr"() <{"func" = "print", "type_hint" = !choco.ir.named_type<"<None>">}> ({
+# CHECK-NEXT:       "choco.ast.id_expr"() <{"id" = "x", "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:     }) : () -> ()
+# CHECK-NEXT:   }) : () -> ()
+# CHECK-NEXT: }

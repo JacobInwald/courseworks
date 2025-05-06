@@ -1,0 +1,11 @@
+# RUN: choco-lexer %s | filecheck %s
+
+i : int = 0
+
+# CHECK:      IDENTIFIER:i
+# CHECK-NEXT: COLON::
+# CHECK-NEXT: INT:int
+# CHECK-NEXT: ASSIGN:=
+# CHECK-NEXT: INTEGER:0
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: EOF

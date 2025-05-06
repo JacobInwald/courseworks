@@ -1,0 +1,1184 @@
+{
+    "tests": [
+        {
+            "name": "literals_bool.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/literals-identifiers/literals_bool.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "literals_none.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/literals-identifiers/literals_none.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "literals_int.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/literals-identifiers/literals_int.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "identifier_1.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/literals-identifiers/identifier_1.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "literals_string.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/literals-identifiers/literals_string.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_id_id_false.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/simple-statements/assign_id_id_false.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "func_def_double.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/simple-statements/func_def_double.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_id_id_id_false.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/simple-statements/assign_id_id_id_false.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "plus_mod_minus_paren.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/plus_mod_minus_paren.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list_true_int.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/list_true_int.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list_return.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/list_return.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_index.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/single_op_index.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "index_expr_2d.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/index_expr_2d.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "mul_minus_div_paren.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/mul_minus_div_paren.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_expr_list_two_elem.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/single_expr_list_two_elem.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "index_expr_1d.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/index_expr_1d.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list_empty_empty.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/list_empty_empty.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "paren_unary.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/paren_unary.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "index_expr_nested.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/index_expr_nested.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list_func_call.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/list_func_call.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_expr_empty_list.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/single_expr_empty_list.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "comparison_ops_nonassoc_eq_eq.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/comparisons-are-not-associative/comparison_ops_nonassoc_eq_eq.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "comparison_ops_nonassoc_in_func.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/comparisons-are-not-associative/comparison_ops_nonassoc_in_func.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "comparison_ops_nonassoc_and_le_eq.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/comparisons-are-not-associative/comparison_ops_nonassoc_and_le_eq.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "comparison_ops_nonassoc_after_func.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/comparisons-are-not-associative/comparison_ops_nonassoc_after_func.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "missing_comma_in_list.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/comma-expected/missing_comma_in_list.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "missing_comma_in_call.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/comma-expected/missing_comma_in_call.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "missing_comma_in_func_parameters.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/comma-expected/missing_comma_in_func_parameters.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_indent_before_block.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/indentation/expected_indent_before_block.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_indent_func_def_vars.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/indentation/expected_indent_func_def_vars.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_indent_func_def.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/indentation/expected_indent_func_def.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unknown_type_var_def_in_func.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/unknown-type/unknown_type_var_def_in_func.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unknown_type_list.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/unknown-type/unknown_type_list.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unknown_type_var_def.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/unknown-type/unknown_type_var_def.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unknown_type_func_param.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/unknown-type/unknown_type_func_param.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_index_expr.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/expected-expr/expected_expr_index_expr.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_list_expr.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/expected-expr/expected_expr_list_expr.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_and_expr.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/expected-expr/expected_expr_and_expr.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_index_expr_2d.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/expected-expr/expected_expr_index_expr_2d.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_no_index_expr.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/expected-expr/expected_expr_no_index_expr.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_unary.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/expected-expr/expected_expr_unary.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_int.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/expected-expr/expected_expr_int.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_if_cond.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/expected-expr/expected_expr_if_cond.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_not_with_comment.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/expected-expr/expected_expr_not_with_comment.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_if_expr.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/expected-expr/expected_expr_if_expr.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_not.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/expected-expr/expected_expr_not.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unexpected_indentation_if_stmt.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/unexpected-indentation/unexpected_indentation_if_stmt.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unexpected_indentation_stmts.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/unexpected-indentation/unexpected_indentation_stmts.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unexpected_indentation_def.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/unexpected-indentation/unexpected_indentation_def.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unexpected_indentation.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/unexpected-indentation/unexpected_indentation.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unexpected_indentation_def_stmt.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/unexpected-indentation/unexpected_indentation_def_stmt.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "variable_defined_later_in_func.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/variable_defined_later/variable_defined_later_in_func.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "variable_defined_later.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/variable_defined_later/variable_defined_later.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unmatched-parenthesis.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/unmatched-parenthesis/unmatched-parenthesis.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_before_assign.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/no-lhs-in-assignment/expected_expr_before_assign.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_before_assign_in_func.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/no-lhs-in-assignment/expected_expr_before_assign_in_func.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_expr_before_assign_in_func_pass.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/no-lhs-in-assignment/expected_expr_before_assign_in_func_pass.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_colon_if_case_if_case.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_colon_if_case_if_case.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_rbracket_index_expr.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_rbracket_index_expr.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_identifier_after_global.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_identifier_after_global.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_newline_after_simple_stmt.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_newline_after_simple_stmt.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_rparen_func_call.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_rparen_func_call.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_newline_before_block.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_newline_before_block.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_assign.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_assign.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_colon_else_case.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_colon_else_case.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_lparen_func_def.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_lparen_func_def.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_rparen_func_def.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_rparen_func_def.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_colon_for_loop.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_colon_for_loop.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_identifier_after_nonlocal.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_identifier_after_nonlocal.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_newline_after_assign.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_newline_after_assign.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_rbracket_list_expr.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_rbracket_list_expr.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_rparen_paren_expr.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_rparen_paren_expr.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_in_for_loop.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_in_for_loop.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_colon_elif_case.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_colon_elif_case.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_else_if_expr.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_else_if_expr.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_colon_if_case.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_colon_if_case.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_colon_func_def.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_colon_func_def.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "expected_newline_func_def.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/syntax-errors/token-not-found/expected_newline_func_def.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "empty.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/simple-statements/ops_coverage/empty.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_stmt_pass.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/simple-statements/ops_coverage/single_stmt_pass.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_stmt_assign.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/simple-statements/ops_coverage/single_stmt_assign.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_stmt_return_param.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/simple-statements/ops_coverage/single_stmt_return_param.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_stmt_return_void.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/simple-statements/ops_coverage/single_stmt_return_void.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_stmt_for.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/control-flow/ops_coverage/single_stmt_for.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_stmt_while.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/control-flow/ops_coverage/single_stmt_while.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_stmt_if.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/control-flow/ops_coverage/single_stmt_if.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_stmt_global_var_def_list.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/variable-defs-decls/ops_coverage/single_stmt_global_var_def_list.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_stmt_global.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/variable-defs-decls/ops_coverage/single_stmt_global.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "var_def_func_def_var_def.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/variable-defs-decls/ops_coverage/var_def_func_def_var_def.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "vardef_global.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/variable-defs-decls/ops_coverage/vardef_global.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_stmt_nonlocal.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/variable-defs-decls/ops_coverage/single_stmt_nonlocal.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_stmt_global_var_def_int.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/variable-defs-decls/ops_coverage/single_stmt_global_var_def_int.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "var_def_pass.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/variable-defs-decls/ops_coverage/var_def_pass.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_expr_paren.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/ops_coverage/single_expr_paren.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_expr_call.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/ops_coverage/single_expr_call.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_expr_list_one_elem.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/ops_coverage/single_expr_list_one_elem.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_expr_index.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/complex-expressions/ops_coverage/single_expr_index.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_mod.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_mod.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_ne.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_ne.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_ge.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_ge.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_le.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_le.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_unary_minus.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_unary_minus.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_is.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_is.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_lt.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_lt.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_plus.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_plus.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_gt.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_gt.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_eq.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_eq.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_minus.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_minus.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_mul.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_mul.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_div.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/ops-coverage/single_op_div.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "associativity_plus.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/associativity/associativity_plus.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "precedence_eq_plus.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/arithmetic-comparison-ops/precedence/precedence_eq_plus.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_and.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/logical-conditional-ops/ops_coverage/single_op_and.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_not.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/logical-conditional-ops/ops_coverage/single_op_not.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_or.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/logical-conditional-ops/ops_coverage/single_op_or.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_op_if.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/logical-conditional-ops/ops_coverage/single_op_if.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "func_prototype_int.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/function-prototypes/ops_coverage/func_prototype_int.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "func_prototype.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/parser/function-prototypes/ops_coverage/func_prototype.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        }
+    ]
+}

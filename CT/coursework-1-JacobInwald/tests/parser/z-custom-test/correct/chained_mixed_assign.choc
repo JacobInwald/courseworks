@@ -1,0 +1,44 @@
+# RUN: choco-opt %s | filecheck %s
+
+x[0] = y = z[0][1] = 1 + y[0]
+
+
+# CHECK: builtin.module {
+# CHECK-NEXT:  "choco.ast.program"() ({
+# CHECK-NEXT:  ^0:
+# CHECK-NEXT:  }, {
+# CHECK-NEXT:    "choco.ast.assign"() ({
+# CHECK-NEXT:      "choco.ast.index_expr"() ({
+# CHECK-NEXT:        "choco.ast.id_expr"() <{"id" = "x"}> : () -> ()
+# CHECK-NEXT:      }, {
+# CHECK-NEXT:        "choco.ast.literal"() <{"value" = 0 : i32}> : () -> ()
+# CHECK-NEXT:      }) : () -> ()
+# CHECK-NEXT:    }, {
+# CHECK-NEXT:      "choco.ast.assign"() ({
+# CHECK-NEXT:        "choco.ast.id_expr"() <{"id" = "y"}> : () -> ()
+# CHECK-NEXT:      }, {
+# CHECK-NEXT:        "choco.ast.assign"() ({
+# CHECK-NEXT:          "choco.ast.index_expr"() ({
+# CHECK-NEXT:            "choco.ast.index_expr"() ({
+# CHECK-NEXT:              "choco.ast.id_expr"() <{"id" = "z"}> : () -> ()
+# CHECK-NEXT:            }, {
+# CHECK-NEXT:              "choco.ast.literal"() <{"value" = 0 : i32}> : () -> ()
+# CHECK-NEXT:            }) : () -> ()
+# CHECK-NEXT:          }, {
+# CHECK-NEXT:            "choco.ast.literal"() <{"value" = 1 : i32}> : () -> ()
+# CHECK-NEXT:          }) : () -> ()
+# CHECK-NEXT:        }, {
+# CHECK-NEXT:          "choco.ast.binary_expr"() <{"op" = "+"}> ({
+# CHECK-NEXT:            "choco.ast.literal"() <{"value" = 1 : i32}> : () -> ()
+# CHECK-NEXT:          }, {
+# CHECK-NEXT:            "choco.ast.index_expr"() ({
+# CHECK-NEXT:              "choco.ast.id_expr"() <{"id" = "y"}> : () -> ()
+# CHECK-NEXT:            }, {
+# CHECK-NEXT:              "choco.ast.literal"() <{"value" = 0 : i32}> : () -> ()
+# CHECK-NEXT:            }) : () -> ()
+# CHECK-NEXT:          }) : () -> ()
+# CHECK-NEXT:        }) : () -> ()
+# CHECK-NEXT:      }) : () -> ()
+# CHECK-NEXT:    }) : () -> ()
+# CHECK-NEXT:  }) : () -> ()
+# CHECK-NEXT:}

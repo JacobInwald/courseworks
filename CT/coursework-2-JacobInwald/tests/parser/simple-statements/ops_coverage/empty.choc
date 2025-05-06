@@ -1,0 +1,11 @@
+# RUN: choco-opt %s | filecheck %s
+
+
+
+# CHECK:      builtin.module {
+# CHECK-NEXT:   "choco.ast.program"() ({
+# CHECK-NEXT:   ^0:
+# CHECK-NEXT:   }, {
+# CHECK-NEXT:   ^1:
+# CHECK-NEXT:   }) : () -> ()
+# CHECK-NEXT: }

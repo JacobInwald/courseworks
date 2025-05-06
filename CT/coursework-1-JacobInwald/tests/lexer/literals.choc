@@ -1,0 +1,48 @@
+# RUN: choco-lexer %s | filecheck %s
+
+def foo():
+
+
+    None
+
+
+    True
+
+
+    False
+
+
+    "Hello"
+
+
+    "He\"ll\"o"
+
+
+    "He\nllo"
+
+
+    "He\\\"llo"
+
+# CHECK:      DEF:def
+# CHECK-NEXT: IDENTIFIER:foo
+# CHECK-NEXT: LROUNDBRACKET:(
+# CHECK-NEXT: RROUNDBRACKET:)
+# CHECK-NEXT: COLON::
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: INDENT
+# CHECK-NEXT: NONE:None
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: TRUE:True
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: FALSE:False
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: STRING:Hello
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: STRING:He\"ll\"o
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: STRING:He\nllo
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: STRING:He\\\"llo
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: DEDENT
+# CHECK-NEXT: EOF

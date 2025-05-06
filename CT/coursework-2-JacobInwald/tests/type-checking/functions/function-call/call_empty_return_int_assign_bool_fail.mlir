@@ -1,0 +1,41 @@
+// RUN: choco-opt -p check-assign-target,name-analysis,type-checking %s | filecheck %s
+
+//
+// def foo() -> int:
+//   return 0
+//
+// x: bool = 0
+// x = foo()
+//
+
+
+builtin.module {
+  "choco.ast.program"() ({
+    "choco.ast.func_def"() <{"func_name" = "foo"}> ({
+    ^0:
+    }, {
+      "choco.ast.type_name"() <{"type_name" = "int"}> : () -> ()
+    }, {
+      "choco.ast.return"() ({
+        "choco.ast.literal"() <{"value" = 0 : i32}> : () -> ()
+      }) : () -> ()
+    }) : () -> ()
+    "choco.ast.var_def"() ({
+      "choco.ast.typed_var"() <{"var_name" = "x"}> ({
+        "choco.ast.type_name"() <{"type_name" = "bool"}> : () -> ()
+      }) : () -> ()
+    }, {
+      "choco.ast.literal"() <{"value" = 0 : i32}> : () -> ()
+    }) : () -> ()
+  }, {
+    "choco.ast.assign"() ({
+      "choco.ast.id_expr"() <{"id" = "x"}> : () -> ()
+    }, {
+      "choco.ast.call_expr"() <{"func" = "foo"}> ({
+      ^1:
+      }) : () -> ()
+    }) : () -> ()
+  }) : () -> ()
+}
+
+// CHECK: Semantic error:

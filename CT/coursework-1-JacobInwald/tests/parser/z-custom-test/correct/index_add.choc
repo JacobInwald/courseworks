@@ -1,0 +1,47 @@
+# RUN: choco-opt %s | filecheck %s
+
+list = [1, 2, 3, 4, 5]
+list[0+1][list[0] + list[1]]
+
+# CHECK: builtin.module {
+# CHECK-NEXT:  "choco.ast.program"() ({
+# CHECK-NEXT:  ^0:
+# CHECK-NEXT:  }, {
+# CHECK-NEXT:    "choco.ast.assign"() ({
+# CHECK-NEXT:      "choco.ast.id_expr"() <{"id" = "list"}> : () -> ()
+# CHECK-NEXT:    }, {
+# CHECK-NEXT:      "choco.ast.list_expr"() ({
+# CHECK-NEXT:        "choco.ast.literal"() <{"value" = 1 : i32}> : () -> ()
+# CHECK-NEXT:        "choco.ast.literal"() <{"value" = 2 : i32}> : () -> ()
+# CHECK-NEXT:        "choco.ast.literal"() <{"value" = 3 : i32}> : () -> ()
+# CHECK-NEXT:        "choco.ast.literal"() <{"value" = 4 : i32}> : () -> ()
+# CHECK-NEXT:        "choco.ast.literal"() <{"value" = 5 : i32}> : () -> ()
+# CHECK-NEXT:      }) : () -> ()
+# CHECK-NEXT:    }) : () -> ()
+# CHECK-NEXT:    "choco.ast.index_expr"() ({
+# CHECK-NEXT:      "choco.ast.index_expr"() ({
+# CHECK-NEXT:        "choco.ast.id_expr"() <{"id" = "list"}> : () -> ()
+# CHECK-NEXT:      }, {
+# CHECK-NEXT:        "choco.ast.binary_expr"() <{"op" = "+"}> ({
+# CHECK-NEXT:          "choco.ast.literal"() <{"value" = 0 : i32}> : () -> ()
+# CHECK-NEXT:        }, {
+# CHECK-NEXT:          "choco.ast.literal"() <{"value" = 1 : i32}> : () -> ()
+# CHECK-NEXT:        }) : () -> ()
+# CHECK-NEXT:      }) : () -> ()
+# CHECK-NEXT:    }, {
+# CHECK-NEXT:      "choco.ast.binary_expr"() <{"op" = "+"}> ({
+# CHECK-NEXT:        "choco.ast.index_expr"() ({
+# CHECK-NEXT:          "choco.ast.id_expr"() <{"id" = "list"}> : () -> ()
+# CHECK-NEXT:        }, {
+# CHECK-NEXT:          "choco.ast.literal"() <{"value" = 0 : i32}> : () -> ()
+# CHECK-NEXT:        }) : () -> ()
+# CHECK-NEXT:      }, {
+# CHECK-NEXT:        "choco.ast.index_expr"() ({
+# CHECK-NEXT:          "choco.ast.id_expr"() <{"id" = "list"}> : () -> ()
+# CHECK-NEXT:        }, {
+# CHECK-NEXT:          "choco.ast.literal"() <{"value" = 1 : i32}> : () -> ()
+# CHECK-NEXT:        }) : () -> ()
+# CHECK-NEXT:      }) : () -> ()
+# CHECK-NEXT:    }) : () -> ()
+# CHECK-NEXT:  }) : () -> ()
+# CHECK-NEXT:}

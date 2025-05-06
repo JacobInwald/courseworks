@@ -1,0 +1,1234 @@
+{
+    "tests": [
+        {
+            "name": "unused_expr.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/warn-dead-code/unused_expr.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unused_function.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/warn-dead-code/unused_function.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "return_after_return.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/warn-dead-code/return_after_return.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unused_parameter.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/warn-dead-code/unused_parameter.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unused_variable.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/warn-dead-code/unused_variable.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "unreachable_and_rhs.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/warn-dead-code/unreachable_and_rhs.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_after_assign_side_effect.choc",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/warn-dead-code/assign_after_assign_side_effect.choc",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "single_expr_paren.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/single_expr_paren.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "empty.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/empty.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list_assign_str.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-complex/list-assign/list_assign_str.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list_assign_int.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-complex/list-assign/list_assign_int.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "list_assign_int_bool_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-complex/list-assign/list_assign_int_bool_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "multi_list_assign_int.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-complex/multi-list-assign/multi_list_assign_int.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "multi_assign_int_bool_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-complex/multi-assign/multi_assign_int_bool_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "multi_assign_int.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-complex/multi-assign/multi_assign_int.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "multi_assign_object.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-complex/multi-assign/multi_assign_object.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "multi_assign_bool.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-complex/multi-assign/multi_assign_bool.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "multi_assign_none_list_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-complex/multi-assign/multi_assign_none_list_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "negate.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/arithmetic/negate/negate.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "mul.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/arithmetic/minus-mul-div-mod/mul.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "div.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/arithmetic/minus-mul-div-mod/div.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "mul_int_list_int_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/arithmetic/minus-mul-div-mod/mul_int_list_int_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "minus.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/arithmetic/minus-mul-div-mod/minus.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "mul_int_int_list_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/arithmetic/minus-mul-div-mod/mul_int_int_list_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "mod.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/arithmetic/minus-mul-div-mod/mod.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "str_add.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/arithmetic/addition/str_add.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "int_list_add.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/arithmetic/addition/int_list_add.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "int_list_int_add_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/arithmetic/addition/int_list_int_add_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "int_add.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/arithmetic/addition/int_add.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "if_literals.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/control-flow/if-else/if_literals.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "if_error_then_body_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/control-flow/if-else/if_error_then_body_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "if_no_else.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/control-flow/if-else/if_no_else.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "pass.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/control-flow/pass/pass.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "while.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/control-flow/while/while.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "str_eq.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/comparison/str/str_eq.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "str_ne.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/comparison/str/str_ne.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "int_lt.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/comparison/int/int_lt.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "int_eq.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/comparison/int/int_eq.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "int_le.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/comparison/int/int_le.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "int_ge.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/comparison/int/int_ge.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "int_ne.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/comparison/int/int_ne.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "int_gt.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/comparison/int/int_gt.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "ge_bool_int_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/comparison/fail/ge_bool_int_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "eq_obj_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/comparison/fail/eq_obj_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "bool_eq.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/comparison/bool/bool_eq.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "bool_ne.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/comparison/bool/bool_ne.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "index_int_list_variables.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/index/list-index/index_int_list_variables.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "index_list_none_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/index/list-index/index_list_none_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "index_str_int_variables.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/index/str-index/index_str_int_variables.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "index_str_int_literals.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/index/str-index/index_str_int_literals.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_str_bool_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_str_bool_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_str_none_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_str_none_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_object_bool.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_object_bool.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_int_bool_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_int_bool_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_object_int.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_object_int.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_int_none_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_int_none_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_bool.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_bool.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_object_none.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_object_none.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_bool_int_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_bool_int_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_str.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_str.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_bool_none_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_bool_none_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_int_str_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_int_str_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_object_list.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_object_list.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_bool_str_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_bool_str_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_int.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign/assign_int.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_expr_list_many_same_elements.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/list-constructors/global_expr_list_many_same_elements.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_expr_empty_list.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/list-constructors/global_expr_empty_list.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_expr_list_empty_list.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/list-constructors/global_expr_list_empty_list.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_expr_list_many_different_elements.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/list-constructors/global_expr_list_many_different_elements.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_expr_list_one_element.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/list-constructors/global_expr_list_one_element.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_expr_list_two_list_none.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/list-constructors/global_expr_list_two_list_none.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_expr_list_int_list.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/list-constructors/global_expr_list_int_list.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_expr_list_two_same_elements.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/list-constructors/global_expr_list_two_same_elements.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_int_list_list_list_list_list_none_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_int_list_list_list_list_list_none_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_int_list_bool_list_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_int_list_bool_list_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_int_list_list_empty_list_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_int_list_list_empty_list_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_empty_bool_list.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_empty_bool_list.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_int_list_list.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_int_list_list.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_int_list_list_list_none.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_int_list_list_list_none.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_int_list_list_empty_list_int_list.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_int_list_list_empty_list_int_list.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_empty_int_list.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_empty_int_list.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_list_two_same_elements.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_list_two_same_elements.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_list_one_element.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_list_one_element.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_object_list_many_different_elements.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_object_list_many_different_elements.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_list_many_same_elements.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_list_many_same_elements.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_empty_object_list.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_empty_object_list.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_int_list_list_int_list_none.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_int_list_list_int_list_none.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_empty_int_list_list.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_empty_int_list_list.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "assign_list_many_different_elements.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/assign-and-list/assign-list/assign_list_many_different_elements.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "literals_bool.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/literals/literals_bool.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "literals_string.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/literals/literals_string.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "literals_int.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/literals/literals_int.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "literals_none.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/literals/literals_none.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_var_def_bool.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/var_def/global_var_def_bool.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_var_def_list_none.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/var_def/global_var_def_list_none.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_var_def_int_3.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/var_def/global_var_def_int_3.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_var_def_int.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/var_def/global_var_def_int.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_var_def_bool_int_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/var_def/global_var_def_bool_int_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_var_def_str.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/var_def/global_var_def_str.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "global_var_def_int_3_second_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/base-rules/var_def/global_var_def_int_3_second_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "not_int_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/and-or-not-is/not/not_int_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "not_bool_literals.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/and-or-not-is/not/not_bool_literals.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "is_list_different_subtype.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/and-or-not-is/is/is_list_different_subtype.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "is_list_same_subtype.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/and-or-not-is/is/is_list_same_subtype.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "is_int_rhs_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/and-or-not-is/is/is_int_rhs_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "is_none.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/and-or-not-is/is/is_none.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "and_bool_literals.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/and-or-not-is/and/and_bool_literals.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "and_list_rhs_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/and-or-not-is/and/and_list_rhs_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "or_bool_literals.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/and-or-not-is/or/or_bool_literals.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "return_int.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/functions/return/return_int.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "return_none_no_return.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/functions/return/return_none_no_return.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "return_int_global_scope_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/functions/return/return_int_global_scope_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "func_def_no_params.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/functions/func-def/func_def_no_params.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "func_def_use_global_variable.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/functions/func-def/func_def_use_global_variable.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "func_def_one_param.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/functions/func-def/func_def_one_param.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "call_recursive.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/functions/function-call/call_recursive.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "call_multiple_args_return_int.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/functions/function-call/call_multiple_args_return_int.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "call_empty_return_int.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/functions/function-call/call_empty_return_int.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "call_empty_return_int_assign_bool_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/functions/function-call/call_empty_return_int_assign_bool_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "for_object_in_int_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/control-flow/for/for-fail/for_object_in_int_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "for_bool_in_int_list_fail.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/control-flow/for/for-list/for_bool_in_int_list_fail.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "for_int_list_literal.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/control-flow/for/for-list/for_int_list_literal.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        },
+        {
+            "name": "for_str_literal.mlir",
+            "setup": "",
+            "run": "export PYTHONPATH=`pwd`; lit -v tests/type-checking/control-flow/for/for-str/for_str_literal.mlir",
+            "input": "",
+            "output": "PASS",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 1
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+# RUN: choco-opt %s | filecheck %s
+
+def id(n: int) -> int:
+   return n
+
+list = [id(1), id(2), id(3)]
+list[id(1)]
+
+# CHECK:     builtin.module {
+# CHECK-NEXT:  "choco.ast.program"() ({
+# CHECK-NEXT:    "choco.ast.func_def"() <{"func_name" = "id"}> ({
+# CHECK-NEXT:      "choco.ast.typed_var"() <{"var_name" = "n"}> ({
+# CHECK-NEXT:        "choco.ast.type_name"() <{"type_name" = "int"}> : () -> ()
+# CHECK-NEXT:      }) : () -> ()
+# CHECK-NEXT:    }, {
+# CHECK-NEXT:      "choco.ast.type_name"() <{"type_name" = "int"}> : () -> ()
+# CHECK-NEXT:    }, {
+# CHECK-NEXT:      "choco.ast.return"() ({
+# CHECK-NEXT:        "choco.ast.id_expr"() <{"id" = "n"}> : () -> ()
+# CHECK-NEXT:      }) : () -> ()
+# CHECK-NEXT:    }) : () -> ()
+# CHECK-NEXT:  }, {
+# CHECK-NEXT:    "choco.ast.assign"() ({
+# CHECK-NEXT:      "choco.ast.id_expr"() <{"id" = "list"}> : () -> ()
+# CHECK-NEXT:    }, {
+# CHECK-NEXT:      "choco.ast.list_expr"() ({
+# CHECK-NEXT:        "choco.ast.call_expr"() <{"func" = "id"}> ({
+# CHECK-NEXT:          "choco.ast.literal"() <{"value" = 1 : i32}> : () -> ()
+# CHECK-NEXT:        }) : () -> ()
+# CHECK-NEXT:        "choco.ast.call_expr"() <{"func" = "id"}> ({
+# CHECK-NEXT:          "choco.ast.literal"() <{"value" = 2 : i32}> : () -> ()
+# CHECK-NEXT:        }) : () -> ()
+# CHECK-NEXT:        "choco.ast.call_expr"() <{"func" = "id"}> ({
+# CHECK-NEXT:          "choco.ast.literal"() <{"value" = 3 : i32}> : () -> ()
+# CHECK-NEXT:        }) : () -> ()
+# CHECK-NEXT:      }) : () -> ()
+# CHECK-NEXT:    }) : () -> ()
+# CHECK-NEXT:    "choco.ast.index_expr"() ({
+# CHECK-NEXT:      "choco.ast.id_expr"() <{"id" = "list"}> : () -> ()
+# CHECK-NEXT:    }, {
+# CHECK-NEXT:      "choco.ast.call_expr"() <{"func" = "id"}> ({
+# CHECK-NEXT:        "choco.ast.literal"() <{"value" = 1 : i32}> : () -> ()
+# CHECK-NEXT:      }) : () -> ()
+# CHECK-NEXT:    }) : () -> ()
+# CHECK-NEXT:  }) : () -> ()
+# CHECK-NEXT:}

@@ -1,0 +1,5 @@
+# RUN: choco-opt -p check-assign-target,name-analysis,type-checking %s | filecheck %s
+
+return
+
+# CHECK: Semantic error: 

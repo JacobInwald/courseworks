@@ -1,0 +1,26 @@
+// RUN: choco-opt -p check-assign-target,name-analysis,type-checking %s | filecheck %s
+
+//
+// []
+//
+
+
+builtin.module {
+  "choco.ast.program"() ({
+  ^0:
+  }, {
+    "choco.ast.list_expr"() ({
+    ^1:
+    }) : () -> ()
+  }) : () -> ()
+}
+
+// CHECK:      builtin.module {
+// CHECK-NEXT:   "choco.ast.program"() ({
+// CHECK-NEXT:   ^0:
+// CHECK-NEXT:   }, {
+// CHECK-NEXT:     "choco.ast.list_expr"() <{"type_hint" = !choco.ir.named_type<"<Empty>">}> ({
+// CHECK-NEXT:     ^1:
+// CHECK-NEXT:     }) : () -> ()
+// CHECK-NEXT:   }) : () -> ()
+// CHECK-NEXT: }

@@ -1,0 +1,5 @@
+# RUN: choco-opt -p all -t riscv %s > %t && riscv-interpreter %t
+a: [int] = None
+a = [0, 1 ,2]
+print(a[1])
+# CHECK: 4

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+
+[tool.pyright]
+include = ["choco"]
+reportImportCycles = false
+reportUnnecessaryIsInstance = false
+
+[project]
+name = "ChocoPyCompiler"
+version = "0.0.1"
+
+[tool.setuptools.package-dir]
+"choco" = "choco"
+"tools" = "tools"
+
+[project.scripts]
+choco-opt = "tools.choco_opt:__main__"
+choco-lexer = "tools.choco_lexer:__main__"

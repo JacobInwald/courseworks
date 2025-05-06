@@ -1,0 +1,22 @@
+// RUN: choco-opt -p check-assign-target,name-analysis,type-checking %s | filecheck %s
+
+//
+// 0 * [0]
+//
+
+
+builtin.module {
+  "choco.ast.program"() ({
+  ^0:
+  }, {
+    "choco.ast.binary_expr"() <{"op" = "*"}> ({
+      "choco.ast.literal"() <{"value" = 0 : i32}> : () -> ()
+    }, {
+      "choco.ast.list_expr"() ({
+        "choco.ast.literal"() <{"value" = 0 : i32}> : () -> ()
+      }) : () -> ()
+    }) : () -> ()
+  }) : () -> ()
+}
+
+// CHECK: Semantic error:

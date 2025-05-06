@@ -1,0 +1,22 @@
+# RUN: choco-lexer %s | filecheck %s
+
+object
+
+
+int
+
+
+bool
+
+
+str
+
+# CHECK:      OBJECT:object
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: INT:int
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: BOOL:bool
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: STR:str
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: EOF

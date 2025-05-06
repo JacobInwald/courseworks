@@ -1,0 +1,31 @@
+// RUN: choco-opt -p check-assign-target,name-analysis,type-checking %s | filecheck %s
+
+//
+// "Hello"
+// "He\"ll\"o"
+// "He\nllo"
+// "He\\\"llo"
+//
+
+
+builtin.module {
+  "choco.ast.program"() ({
+  ^0:
+  }, {
+    "choco.ast.literal"() <{"value" = "Hello"}> : () -> ()
+    "choco.ast.literal"() <{"value" = "He\"ll\"o"}> : () -> ()
+    "choco.ast.literal"() <{"value" = "He\nllo"}> : () -> ()
+    "choco.ast.literal"() <{"value" = "He\\\"llo"}> : () -> ()
+  }) : () -> ()
+}
+
+// CHECK:      builtin.module {
+// CHECK-NEXT:   "choco.ast.program"() ({
+// CHECK-NEXT:   ^0:
+// CHECK-NEXT:   }, {
+// CHECK-NEXT:     "choco.ast.literal"() <{"value" = "Hello", "type_hint" = !choco.ir.named_type<"str">}> : () -> ()
+// CHECK-NEXT:     "choco.ast.literal"() <{"value" = "He\"ll\"o", "type_hint" = !choco.ir.named_type<"str">}> : () -> ()
+// CHECK-NEXT:     "choco.ast.literal"() <{"value" = "He\nllo", "type_hint" = !choco.ir.named_type<"str">}> : () -> ()
+// CHECK-NEXT:     "choco.ast.literal"() <{"value" = "He\\\"llo", "type_hint" = !choco.ir.named_type<"str">}> : () -> ()
+// CHECK-NEXT:   }) : () -> ()
+// CHECK-NEXT: }

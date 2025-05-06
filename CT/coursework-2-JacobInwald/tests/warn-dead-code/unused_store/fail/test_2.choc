@@ -1,0 +1,18 @@
+# RUN: choco-opt -p check-assign-target,name-analysis,type-checking,warn-dead-code %s | filecheck %s
+
+x: [int] = None
+
+x = []
+x[0] = 1
+x[0] = 2
+
+# CHECK: [Warning] Dead code found: The following store operation is unused: 
+# CHECK-NEXT: "choco.ast.assign"() ({
+# CHECK-NEXT:   "choco.ast.index_expr"() <{"type_hint" = !choco.ir.named_type<"int">}> ({
+# CHECK-NEXT:     "choco.ast.id_expr"() <{"id" = "x", "type_hint" = !choco.ir.list_type<!choco.ir.named_type<"int">>}> : () -> ()
+# CHECK-NEXT:   }, {
+# CHECK-NEXT:     "choco.ast.literal"() <{"value" = 0 : i32, "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT:   }) : () -> ()
+# CHECK-NEXT: }, {
+# CHECK-NEXT:   "choco.ast.literal"() <{"value" = 1 : i32, "type_hint" = !choco.ir.named_type<"int">}> : () -> ()
+# CHECK-NEXT: }) : () -> ()
