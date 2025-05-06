@@ -1,0 +1,3554 @@
+COM:  0 50 30
+orientation: 1 0 0 0
+COM:  0 65 30
+orientation: 1 0 0 0
+COM:  0 80 30
+orientation: 1 0 0 0
+COM:  0 95 30
+orientation: 1 0 0 0
+COM:   0 110  30
+orientation: 1 0 0 0
+COM:   0 125  30
+orientation: 1 0 0 0
+COM:   0 140  30
+orientation: 1 0 0 0
+COM:   0 155  30
+orientation: 1 0 0 0
+COM:   0 170  30
+orientation: 1 0 0 0
+COM: -170  130   30
+orientation: 1 0 0 0
+COM: -150  130   30
+orientation: 1 0 0 0
+COM: -130  130   30
+orientation: 1 0 0 0
+COM: -110  130   30
+orientation: 1 0 0 0
+COM: -90 130  30
+orientation: 1 0 0 0
+COM: -70 130  30
+orientation: 1 0 0 0
+COM: -50 130  30
+orientation: 1 0 0 0
+COM: -30 130  30
+orientation: 1 0 0 0
+COM: -10 130  30
+orientation: 1 0 0 0
+COM: -80  10 -80
+orientation: 0.707107 0.707107        0        0
+COM: -80  10 -30
+orientation: 0.707107 0.707107        0        0
+COM: -80  10  30
+orientation: 0.707107 0.707107        0        0
+COM: -80  10  80
+orientation: 0.707107 0.707107        0        0
+COM: -30  10 -80
+orientation: 0.707107 0.707107        0        0
+COM: -30  10 -30
+orientation: 0.707107 0.707107        0        0
+COM: -30  10  30
+orientation: 0.707107 0.707107        0        0
+COM: -30  10  80
+orientation: 0.707107 0.707107        0        0
+COM:  30  10 -80
+orientation: 0.707107 0.707107        0        0
+COM:  30  10 -30
+orientation: 0.707107 0.707107        0        0
+COM: 30 10 30
+orientation: 0.707107 0.707107        0        0
+COM: 30 10 80
+orientation: 0.707107 0.707107        0        0
+COM:  80  10 -80
+orientation: 0.707107 0.707107        0        0
+COM:  80  10 -30
+orientation: 0.707107 0.707107        0        0
+COM: 80 10 30
+orientation: 0.707107 0.707107        0        0
+[polyscope] Backend: openGL3_glfw -- Loaded openGL version: 4.6 (Core Profile) Mesa 24.3.4
+FPS: 5881.35
+FPS: 3204.34
+FPS: 4094.4
+FPS: 4747.93
+FPS: 4996.2
+FPS: 3439.4
+FPS: 5314.2
+FPS: 4439.51
+FPS: 3268.68
+FPS: 4702.92
+FPS: 4435.42
+FPS: 4027.82
+FPS: 4581.52
+FPS: 4726.05
+FPS: 5130.07
+FPS: 4942.86
+FPS: 5093.62
+FPS: 4315.18
+FPS: 1637.84
+FPS: 1633.89
+FPS: 1482.14
+FPS: 1608.09
+FPS: 1720.49
+FPS: 1727.74
+FPS: 1741.8
+FPS: 1524.26
+FPS: 1689.12
+FPS: 1408.2
+FPS: 1523.31
+FPS: 1600.18
+FPS: 1686.67
+FPS: 1587.11
+FPS: 1476.06
+FPS: 1239.88
+FPS: 1509.4
+FPS: 1589.23
+FPS: 1541.15
+FPS: 1503
+FPS: 1284.44
+FPS: 1556.62
+FPS: 1391.18
+FPS: 1398.18
+FPS: 1393.24
+FPS: 1668.26
+FPS: 2140.88
+FPS: 2200.11
+FPS: 2170.6
+Constraint resolution reached maxIterations without resolving!
+FPS: 1591.61
+FPS: 1888.36
+FPS: 2038.66
+FPS: 1711.21
+FPS: 1968.99
+FPS: 1898.64
+FPS: 2141.87
+Constraint resolution reached maxIterations without resolving!
+FPS: 1688.02
+Constraint resolution reached maxIterations without resolving!
+FPS: 1271.66
+Constraint resolution reached maxIterations without resolving!
+FPS: 1083.02
+Constraint resolution reached maxIterations without resolving!
+FPS: 923.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 1092.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 1116.02
+Constraint resolution reached maxIterations without resolving!
+FPS: 1102.1
+Constraint resolution reached maxIterations without resolving!
+FPS: 1056.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.03
+Constraint resolution reached maxIterations without resolving!
+FPS: 1439.14
+Constraint resolution reached maxIterations without resolving!
+FPS: 2849.35
+Constraint resolution reached maxIterations without resolving!
+FPS: 2920.25
+Constraint resolution reached maxIterations without resolving!
+FPS: 2550.43
+Constraint resolution reached maxIterations without resolving!
+FPS: 3070.88
+Constraint resolution reached maxIterations without resolving!
+FPS: 1439.73
+Constraint resolution reached maxIterations without resolving!
+FPS: 994.425
+Constraint resolution reached maxIterations without resolving!
+FPS: 1033.88
+Constraint resolution reached maxIterations without resolving!
+FPS: 956.519
+Constraint resolution reached maxIterations without resolving!
+FPS: 994.503
+Constraint resolution reached maxIterations without resolving!
+FPS: 797.927
+Constraint resolution reached maxIterations without resolving!
+FPS: 1004.17
+Constraint resolution reached maxIterations without resolving!
+FPS: 1011.35
+Constraint resolution reached maxIterations without resolving!
+FPS: 989.644
+Constraint resolution reached maxIterations without resolving!
+FPS: 997.072
+Constraint resolution reached maxIterations without resolving!
+FPS: 1944.42
+Constraint resolution reached maxIterations without resolving!
+FPS: 2945.68
+Constraint resolution reached maxIterations without resolving!
+FPS: 3012.2
+Constraint resolution reached maxIterations without resolving!
+FPS: 2901.54
+Constraint resolution reached maxIterations without resolving!
+FPS: 2870.39
+Constraint resolution reached maxIterations without resolving!
+FPS: 3093.12
+Constraint resolution reached maxIterations without resolving!
+FPS: 2461.73
+Constraint resolution reached maxIterations without resolving!
+FPS: 981.238
+Constraint resolution reached maxIterations without resolving!
+FPS: 995.829
+Constraint resolution reached maxIterations without resolving!
+FPS: 919.38
+Constraint resolution reached maxIterations without resolving!
+FPS: 979.227
+Constraint resolution reached maxIterations without resolving!
+FPS: 854.918
+Constraint resolution reached maxIterations without resolving!
+FPS: 1016.58
+Constraint resolution reached maxIterations without resolving!
+FPS: 1000.8
+Constraint resolution reached maxIterations without resolving!
+FPS: 1004.05
+Constraint resolution reached maxIterations without resolving!
+FPS: 999.417
+Constraint resolution reached maxIterations without resolving!
+FPS: 885.635
+Constraint resolution reached maxIterations without resolving!
+FPS: 990.756
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.82
+Constraint resolution reached maxIterations without resolving!
+FPS: 996.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.472
+Constraint resolution reached maxIterations without resolving!
+FPS: 987.446
+Constraint resolution reached maxIterations without resolving!
+FPS: 999.801
+Constraint resolution reached maxIterations without resolving!
+FPS: 765.475
+Constraint resolution reached maxIterations without resolving!
+FPS: 1001.32
+Constraint resolution reached maxIterations without resolving!
+FPS: 897.646
+Constraint resolution reached maxIterations without resolving!
+FPS: 1008.65
+Constraint resolution reached maxIterations without resolving!
+FPS: 819.821
+Constraint resolution reached maxIterations without resolving!
+FPS: 977.837
+Constraint resolution reached maxIterations without resolving!
+FPS: 1017.08
+Constraint resolution reached maxIterations without resolving!
+FPS: 1007.45
+Constraint resolution reached maxIterations without resolving!
+FPS: 1003.25
+Constraint resolution reached maxIterations without resolving!
+FPS: 800.848
+Constraint resolution reached maxIterations without resolving!
+FPS: 995.703
+Constraint resolution reached maxIterations without resolving!
+FPS: 829.709
+Constraint resolution reached maxIterations without resolving!
+FPS: 990.444
+Constraint resolution reached maxIterations without resolving!
+FPS: 895.972
+Constraint resolution reached maxIterations without resolving!
+FPS: 995.088
+Constraint resolution reached maxIterations without resolving!
+FPS: 872.282
+Constraint resolution reached maxIterations without resolving!
+FPS: 931.301
+Constraint resolution reached maxIterations without resolving!
+FPS: 981.007
+Constraint resolution reached maxIterations without resolving!
+FPS: 818.637
+Constraint resolution reached maxIterations without resolving!
+FPS: 1003.29
+Constraint resolution reached maxIterations without resolving!
+FPS: 631.997
+Constraint resolution reached maxIterations without resolving!
+FPS: 1000.17
+Constraint resolution reached maxIterations without resolving!
+FPS: 1487.67
+Constraint resolution reached maxIterations without resolving!
+FPS: 1449.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 1102.03
+Constraint resolution reached maxIterations without resolving!
+FPS: 981.269
+Constraint resolution reached maxIterations without resolving!
+FPS: 986.036
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.72
+Constraint resolution reached maxIterations without resolving!
+FPS: 977.503
+Constraint resolution reached maxIterations without resolving!
+FPS: 1005.12
+Constraint resolution reached maxIterations without resolving!
+FPS: 976.232
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.715
+Constraint resolution reached maxIterations without resolving!
+FPS: 977.223
+Constraint resolution reached maxIterations without resolving!
+FPS: 979.769
+Constraint resolution reached maxIterations without resolving!
+FPS: 1005.63
+Constraint resolution reached maxIterations without resolving!
+FPS: 1012.34
+Constraint resolution reached maxIterations without resolving!
+FPS: 861.917
+Constraint resolution reached maxIterations without resolving!
+FPS: 980.063
+Constraint resolution reached maxIterations without resolving!
+FPS: 962.615
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.954
+Constraint resolution reached maxIterations without resolving!
+FPS: 959.549
+Constraint resolution reached maxIterations without resolving!
+FPS: 965.958
+Constraint resolution reached maxIterations without resolving!
+FPS: 980.709
+Constraint resolution reached maxIterations without resolving!
+FPS: 857.756
+Constraint resolution reached maxIterations without resolving!
+FPS: 965.151
+Constraint resolution reached maxIterations without resolving!
+FPS: 912.008
+Constraint resolution reached maxIterations without resolving!
+FPS: 968.44
+Constraint resolution reached maxIterations without resolving!
+FPS: 977.337
+Constraint resolution reached maxIterations without resolving!
+FPS: 980.058
+Constraint resolution reached maxIterations without resolving!
+FPS: 961.225
+Constraint resolution reached maxIterations without resolving!
+FPS: 970.185
+Constraint resolution reached maxIterations without resolving!
+FPS: 971.729
+Constraint resolution reached maxIterations without resolving!
+FPS: 916.201
+Constraint resolution reached maxIterations without resolving!
+FPS: 959.827
+Constraint resolution reached maxIterations without resolving!
+FPS: 899.285
+Constraint resolution reached maxIterations without resolving!
+FPS: 970.051
+Constraint resolution reached maxIterations without resolving!
+FPS: 977.22
+Constraint resolution reached maxIterations without resolving!
+FPS: 945.755
+Constraint resolution reached maxIterations without resolving!
+FPS: 975.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 581.643
+Constraint resolution reached maxIterations without resolving!
+FPS: 973.187
+Constraint resolution reached maxIterations without resolving!
+FPS: 880.165
+Constraint resolution reached maxIterations without resolving!
+FPS: 926.845
+Constraint resolution reached maxIterations without resolving!
+FPS: 758.889
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.341
+Constraint resolution reached maxIterations without resolving!
+FPS: 981.683
+Constraint resolution reached maxIterations without resolving!
+FPS: 902.439
+Constraint resolution reached maxIterations without resolving!
+FPS: 860.834
+Constraint resolution reached maxIterations without resolving!
+FPS: 969.162
+Constraint resolution reached maxIterations without resolving!
+FPS: 960.65
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.387
+Constraint resolution reached maxIterations without resolving!
+FPS: 1012.3
+Constraint resolution reached maxIterations without resolving!
+FPS: 870.669
+Constraint resolution reached maxIterations without resolving!
+FPS: 650.988
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.519
+Constraint resolution reached maxIterations without resolving!
+FPS: 752.716
+Constraint resolution reached maxIterations without resolving!
+FPS: 993.195
+Constraint resolution reached maxIterations without resolving!
+FPS: 734.956
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.142
+Constraint resolution reached maxIterations without resolving!
+FPS: 847.906
+Constraint resolution reached maxIterations without resolving!
+FPS: 978.612
+Constraint resolution reached maxIterations without resolving!
+FPS: 976.62
+Constraint resolution reached maxIterations without resolving!
+FPS: 961.486
+Constraint resolution reached maxIterations without resolving!
+FPS: 991.657
+Constraint resolution reached maxIterations without resolving!
+FPS: 804.323
+Constraint resolution reached maxIterations without resolving!
+FPS: 862.269
+Constraint resolution reached maxIterations without resolving!
+FPS: 905.818
+Constraint resolution reached maxIterations without resolving!
+FPS: 998.01
+Constraint resolution reached maxIterations without resolving!
+FPS: 965.079
+Constraint resolution reached maxIterations without resolving!
+FPS: 962.865
+Constraint resolution reached maxIterations without resolving!
+FPS: 907.171
+Constraint resolution reached maxIterations without resolving!
+FPS: 841.041
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.928
+Constraint resolution reached maxIterations without resolving!
+FPS: 746.007
+Constraint resolution reached maxIterations without resolving!
+FPS: 951.404
+Constraint resolution reached maxIterations without resolving!
+FPS: 821.471
+Constraint resolution reached maxIterations without resolving!
+FPS: 945.396
+Constraint resolution reached maxIterations without resolving!
+FPS: 966.686
+Constraint resolution reached maxIterations without resolving!
+FPS: 898.927
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.162
+Constraint resolution reached maxIterations without resolving!
+FPS: 910.703
+Constraint resolution reached maxIterations without resolving!
+FPS: 959.758
+Constraint resolution reached maxIterations without resolving!
+FPS: 802.345
+Constraint resolution reached maxIterations without resolving!
+FPS: 974.584
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.05
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.668
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.979
+Constraint resolution reached maxIterations without resolving!
+FPS: 798.589
+Constraint resolution reached maxIterations without resolving!
+FPS: 964.345
+Constraint resolution reached maxIterations without resolving!
+FPS: 772.944
+Constraint resolution reached maxIterations without resolving!
+FPS: 991.041
+Constraint resolution reached maxIterations without resolving!
+FPS: 994.538
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.248
+Constraint resolution reached maxIterations without resolving!
+FPS: 963.623
+Constraint resolution reached maxIterations without resolving!
+FPS: 843.797
+Constraint resolution reached maxIterations without resolving!
+FPS: 983.056
+Constraint resolution reached maxIterations without resolving!
+FPS: 750.238
+Constraint resolution reached maxIterations without resolving!
+FPS: 982.9
+Constraint resolution reached maxIterations without resolving!
+FPS: 885.171
+Constraint resolution reached maxIterations without resolving!
+FPS: 965.021
+Constraint resolution reached maxIterations without resolving!
+FPS: 911.15
+Constraint resolution reached maxIterations without resolving!
+FPS: 959.822
+Constraint resolution reached maxIterations without resolving!
+FPS: 965.793
+Constraint resolution reached maxIterations without resolving!
+FPS: 754.698
+Constraint resolution reached maxIterations without resolving!
+FPS: 960.846
+Constraint resolution reached maxIterations without resolving!
+FPS: 772.22
+Constraint resolution reached maxIterations without resolving!
+FPS: 945.091
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.345
+Constraint resolution reached maxIterations without resolving!
+FPS: 973.771
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.607
+Constraint resolution reached maxIterations without resolving!
+FPS: 887.995
+Constraint resolution reached maxIterations without resolving!
+FPS: 955.21
+Constraint resolution reached maxIterations without resolving!
+FPS: 795.177
+Constraint resolution reached maxIterations without resolving!
+FPS: 895.843
+Constraint resolution reached maxIterations without resolving!
+FPS: 885.733
+Constraint resolution reached maxIterations without resolving!
+FPS: 871.54
+Constraint resolution reached maxIterations without resolving!
+FPS: 855.202
+Constraint resolution reached maxIterations without resolving!
+FPS: 880.713
+Constraint resolution reached maxIterations without resolving!
+FPS: 886.905
+Constraint resolution reached maxIterations without resolving!
+FPS: 885.047
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.942
+Constraint resolution reached maxIterations without resolving!
+FPS: 832.755
+Constraint resolution reached maxIterations without resolving!
+FPS: 890.22
+Constraint resolution reached maxIterations without resolving!
+FPS: 856.934
+Constraint resolution reached maxIterations without resolving!
+FPS: 884.88
+Constraint resolution reached maxIterations without resolving!
+FPS: 879.262
+Constraint resolution reached maxIterations without resolving!
+FPS: 888.856
+Constraint resolution reached maxIterations without resolving!
+FPS: 881.568
+Constraint resolution reached maxIterations without resolving!
+FPS: 773.875
+Constraint resolution reached maxIterations without resolving!
+FPS: 609.877
+Constraint resolution reached maxIterations without resolving!
+FPS: 956.228
+Constraint resolution reached maxIterations without resolving!
+FPS: 943.039
+Constraint resolution reached maxIterations without resolving!
+FPS: 946.507
+Constraint resolution reached maxIterations without resolving!
+FPS: 804.756
+Constraint resolution reached maxIterations without resolving!
+FPS: 875.694
+Constraint resolution reached maxIterations without resolving!
+FPS: 796.209
+Constraint resolution reached maxIterations without resolving!
+FPS: 915.892
+Constraint resolution reached maxIterations without resolving!
+FPS: 861.855
+Constraint resolution reached maxIterations without resolving!
+FPS: 882.243
+Constraint resolution reached maxIterations without resolving!
+FPS: 892.566
+Constraint resolution reached maxIterations without resolving!
+FPS: 819.403
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.279
+Constraint resolution reached maxIterations without resolving!
+FPS: 1563.24
+Constraint resolution reached maxIterations without resolving!
+FPS: 1967.34
+Constraint resolution reached maxIterations without resolving!
+FPS: 972.606
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.975
+Constraint resolution reached maxIterations without resolving!
+FPS: 1528.08
+Constraint resolution reached maxIterations without resolving!
+FPS: 2490.42
+Constraint resolution reached maxIterations without resolving!
+FPS: 2883.81
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.935
+Constraint resolution reached maxIterations without resolving!
+FPS: 996.665
+Constraint resolution reached maxIterations without resolving!
+FPS: 920.226
+Constraint resolution reached maxIterations without resolving!
+FPS: 965.732
+Constraint resolution reached maxIterations without resolving!
+FPS: 995.922
+Constraint resolution reached maxIterations without resolving!
+FPS: 938.244
+Constraint resolution reached maxIterations without resolving!
+FPS: 914.701
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.656
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.92
+Constraint resolution reached maxIterations without resolving!
+FPS: 892.844
+Constraint resolution reached maxIterations without resolving!
+FPS: 918.248
+Constraint resolution reached maxIterations without resolving!
+FPS: 906.421
+Constraint resolution reached maxIterations without resolving!
+FPS: 841.584
+Constraint resolution reached maxIterations without resolving!
+FPS: 838.029
+Constraint resolution reached maxIterations without resolving!
+FPS: 887.721
+Constraint resolution reached maxIterations without resolving!
+FPS: 814.461
+Constraint resolution reached maxIterations without resolving!
+FPS: 816.918
+Constraint resolution reached maxIterations without resolving!
+FPS: 922.335
+Constraint resolution reached maxIterations without resolving!
+FPS: 753.969
+Constraint resolution reached maxIterations without resolving!
+FPS: 925.518
+Constraint resolution reached maxIterations without resolving!
+FPS: 869.246
+Constraint resolution reached maxIterations without resolving!
+FPS: 952.467
+Constraint resolution reached maxIterations without resolving!
+FPS: 921.308
+Constraint resolution reached maxIterations without resolving!
+FPS: 971.283
+Constraint resolution reached maxIterations without resolving!
+FPS: 930.372
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.386
+Constraint resolution reached maxIterations without resolving!
+FPS: 879.616
+Constraint resolution reached maxIterations without resolving!
+FPS: 813.854
+Constraint resolution reached maxIterations without resolving!
+FPS: 1419.35
+Constraint resolution reached maxIterations without resolving!
+FPS: 2730.89
+Constraint resolution reached maxIterations without resolving!
+FPS: 970.208
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.634
+Constraint resolution reached maxIterations without resolving!
+FPS: 783.385
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.497
+Constraint resolution reached maxIterations without resolving!
+FPS: 826.408
+Constraint resolution reached maxIterations without resolving!
+FPS: 1505.48
+Constraint resolution reached maxIterations without resolving!
+FPS: 1277.58
+Constraint resolution reached maxIterations without resolving!
+FPS: 1476.5
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.45
+Constraint resolution reached maxIterations without resolving!
+FPS: 930.376
+Constraint resolution reached maxIterations without resolving!
+FPS: 933.973
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.058
+Constraint resolution reached maxIterations without resolving!
+FPS: 965.597
+Constraint resolution reached maxIterations without resolving!
+FPS: 944.022
+Constraint resolution reached maxIterations without resolving!
+FPS: 922.611
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.055
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.96
+Constraint resolution reached maxIterations without resolving!
+FPS: 955.066
+Constraint resolution reached maxIterations without resolving!
+FPS: 1912.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 2800.89
+Constraint resolution reached maxIterations without resolving!
+FPS: 2764.04
+Constraint resolution reached maxIterations without resolving!
+FPS: 2896.99
+Constraint resolution reached maxIterations without resolving!
+FPS: 911.625
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.204
+Constraint resolution reached maxIterations without resolving!
+FPS: 955.241
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.801
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.247
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.802
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.17
+Constraint resolution reached maxIterations without resolving!
+FPS: 833.233
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.232
+Constraint resolution reached maxIterations without resolving!
+FPS: 613.133
+Constraint resolution reached maxIterations without resolving!
+FPS: 1144.04
+Constraint resolution reached maxIterations without resolving!
+FPS: 1934.41
+Constraint resolution reached maxIterations without resolving!
+FPS: 2074.37
+Constraint resolution reached maxIterations without resolving!
+FPS: 1859.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 1390.98
+Constraint resolution reached maxIterations without resolving!
+FPS: 1844.44
+Constraint resolution reached maxIterations without resolving!
+FPS: 1830.02
+Constraint resolution reached maxIterations without resolving!
+FPS: 1170.05
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.967
+Constraint resolution reached maxIterations without resolving!
+FPS: 876.634
+Constraint resolution reached maxIterations without resolving!
+FPS: 914.496
+Constraint resolution reached maxIterations without resolving!
+FPS: 909.187
+Constraint resolution reached maxIterations without resolving!
+FPS: 933.446
+Constraint resolution reached maxIterations without resolving!
+FPS: 968.118
+Constraint resolution reached maxIterations without resolving!
+FPS: 978.484
+Constraint resolution reached maxIterations without resolving!
+FPS: 975.9
+Constraint resolution reached maxIterations without resolving!
+FPS: 971.535
+Constraint resolution reached maxIterations without resolving!
+FPS: 987.427
+Constraint resolution reached maxIterations without resolving!
+FPS: 870.972
+Constraint resolution reached maxIterations without resolving!
+FPS: 976.13
+Constraint resolution reached maxIterations without resolving!
+FPS: 595.82
+Constraint resolution reached maxIterations without resolving!
+FPS: 1762.87
+Constraint resolution reached maxIterations without resolving!
+FPS: 2813.98
+Constraint resolution reached maxIterations without resolving!
+FPS: 2786.91
+Constraint resolution reached maxIterations without resolving!
+FPS: 2795.04
+Constraint resolution reached maxIterations without resolving!
+FPS: 869.059
+Constraint resolution reached maxIterations without resolving!
+FPS: 982.544
+Constraint resolution reached maxIterations without resolving!
+FPS: 893.308
+Constraint resolution reached maxIterations without resolving!
+FPS: 990.326
+Constraint resolution reached maxIterations without resolving!
+FPS: 842.056
+Constraint resolution reached maxIterations without resolving!
+FPS: 997.971
+Constraint resolution reached maxIterations without resolving!
+FPS: 994.75
+Constraint resolution reached maxIterations without resolving!
+FPS: 981.555
+Constraint resolution reached maxIterations without resolving!
+FPS: 993.9
+Constraint resolution reached maxIterations without resolving!
+FPS: 895.687
+Constraint resolution reached maxIterations without resolving!
+FPS: 986.283
+Constraint resolution reached maxIterations without resolving!
+FPS: 945.013
+Constraint resolution reached maxIterations without resolving!
+FPS: 991.632
+Constraint resolution reached maxIterations without resolving!
+FPS: 981.462
+Constraint resolution reached maxIterations without resolving!
+FPS: 974.603
+Constraint resolution reached maxIterations without resolving!
+FPS: 963.566
+Constraint resolution reached maxIterations without resolving!
+FPS: 997.555
+Constraint resolution reached maxIterations without resolving!
+FPS: 983.05
+Constraint resolution reached maxIterations without resolving!
+FPS: 858.217
+Constraint resolution reached maxIterations without resolving!
+FPS: 974.685
+Constraint resolution reached maxIterations without resolving!
+FPS: 999.178
+Constraint resolution reached maxIterations without resolving!
+FPS: 970.925
+Constraint resolution reached maxIterations without resolving!
+FPS: 981.885
+Constraint resolution reached maxIterations without resolving!
+FPS: 989.725
+Constraint resolution reached maxIterations without resolving!
+FPS: 918.68
+Constraint resolution reached maxIterations without resolving!
+FPS: 755.017
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.142
+Constraint resolution reached maxIterations without resolving!
+FPS: 897.343
+Constraint resolution reached maxIterations without resolving!
+FPS: 804.714
+Constraint resolution reached maxIterations without resolving!
+FPS: 979.742
+Constraint resolution reached maxIterations without resolving!
+FPS: 974.341
+Constraint resolution reached maxIterations without resolving!
+FPS: 973.689
+Constraint resolution reached maxIterations without resolving!
+FPS: 833.198
+Constraint resolution reached maxIterations without resolving!
+FPS: 955.221
+Constraint resolution reached maxIterations without resolving!
+FPS: 749.593
+Constraint resolution reached maxIterations without resolving!
+FPS: 978.79
+Constraint resolution reached maxIterations without resolving!
+FPS: 842.371
+Constraint resolution reached maxIterations without resolving!
+FPS: 946.023
+Constraint resolution reached maxIterations without resolving!
+FPS: 959.337
+Constraint resolution reached maxIterations without resolving!
+FPS: 936.21
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.518
+Constraint resolution reached maxIterations without resolving!
+FPS: 951.771
+Constraint resolution reached maxIterations without resolving!
+FPS: 974.248
+Constraint resolution reached maxIterations without resolving!
+FPS: 785.604
+Constraint resolution reached maxIterations without resolving!
+FPS: 973.216
+Constraint resolution reached maxIterations without resolving!
+FPS: 938.966
+Constraint resolution reached maxIterations without resolving!
+FPS: 984.902
+Constraint resolution reached maxIterations without resolving!
+FPS: 990.359
+Constraint resolution reached maxIterations without resolving!
+FPS: 992.915
+Constraint resolution reached maxIterations without resolving!
+FPS: 977.456
+Constraint resolution reached maxIterations without resolving!
+FPS: 853.437
+Constraint resolution reached maxIterations without resolving!
+FPS: 991.619
+Constraint resolution reached maxIterations without resolving!
+FPS: 859.721
+Constraint resolution reached maxIterations without resolving!
+FPS: 981.326
+Constraint resolution reached maxIterations without resolving!
+FPS: 845.866
+Constraint resolution reached maxIterations without resolving!
+FPS: 977.13
+Constraint resolution reached maxIterations without resolving!
+FPS: 962.336
+Constraint resolution reached maxIterations without resolving!
+FPS: 833.315
+Constraint resolution reached maxIterations without resolving!
+FPS: 981.783
+Constraint resolution reached maxIterations without resolving!
+FPS: 906.09
+Constraint resolution reached maxIterations without resolving!
+FPS: 943.856
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.568
+Constraint resolution reached maxIterations without resolving!
+FPS: 965.401
+Constraint resolution reached maxIterations without resolving!
+FPS: 973.34
+Constraint resolution reached maxIterations without resolving!
+FPS: 968.575
+Constraint resolution reached maxIterations without resolving!
+FPS: 891.234
+Constraint resolution reached maxIterations without resolving!
+FPS: 852.387
+Constraint resolution reached maxIterations without resolving!
+FPS: 964.159
+Constraint resolution reached maxIterations without resolving!
+FPS: 916.657
+Constraint resolution reached maxIterations without resolving!
+FPS: 973.973
+Constraint resolution reached maxIterations without resolving!
+FPS: 962.671
+Constraint resolution reached maxIterations without resolving!
+FPS: 972.37
+Constraint resolution reached maxIterations without resolving!
+FPS: 958.966
+Constraint resolution reached maxIterations without resolving!
+FPS: 766.239
+Constraint resolution reached maxIterations without resolving!
+FPS: 952.289
+Constraint resolution reached maxIterations without resolving!
+FPS: 847.114
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.365
+Constraint resolution reached maxIterations without resolving!
+FPS: 897.619
+Constraint resolution reached maxIterations without resolving!
+FPS: 844.089
+Constraint resolution reached maxIterations without resolving!
+FPS: 957.236
+Constraint resolution reached maxIterations without resolving!
+FPS: 923.712
+Constraint resolution reached maxIterations without resolving!
+FPS: 951.458
+Constraint resolution reached maxIterations without resolving!
+FPS: 885.803
+Constraint resolution reached maxIterations without resolving!
+FPS: 885.82
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.942
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.823
+Constraint resolution reached maxIterations without resolving!
+FPS: 960.511
+Constraint resolution reached maxIterations without resolving!
+FPS: 963.707
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.436
+Constraint resolution reached maxIterations without resolving!
+FPS: 833.093
+Constraint resolution reached maxIterations without resolving!
+FPS: 958.596
+Constraint resolution reached maxIterations without resolving!
+FPS: 781.501
+Constraint resolution reached maxIterations without resolving!
+FPS: 955.949
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.596
+Constraint resolution reached maxIterations without resolving!
+FPS: 933.963
+Constraint resolution reached maxIterations without resolving!
+FPS: 921.137
+Constraint resolution reached maxIterations without resolving!
+FPS: 977.102
+Constraint resolution reached maxIterations without resolving!
+FPS: 865.944
+Constraint resolution reached maxIterations without resolving!
+FPS: 888.937
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.445
+Constraint resolution reached maxIterations without resolving!
+FPS: 909.702
+Constraint resolution reached maxIterations without resolving!
+FPS: 963.343
+Constraint resolution reached maxIterations without resolving!
+FPS: 884.674
+Constraint resolution reached maxIterations without resolving!
+FPS: 919.063
+Constraint resolution reached maxIterations without resolving!
+FPS: 835.693
+Constraint resolution reached maxIterations without resolving!
+FPS: 831.609
+Constraint resolution reached maxIterations without resolving!
+FPS: 919.436
+Constraint resolution reached maxIterations without resolving!
+FPS: 896.964
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.927
+Constraint resolution reached maxIterations without resolving!
+FPS: 756.862
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.065
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.927
+Constraint resolution reached maxIterations without resolving!
+FPS: 832.445
+Constraint resolution reached maxIterations without resolving!
+FPS: 949.185
+Constraint resolution reached maxIterations without resolving!
+FPS: 949.181
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.81
+Constraint resolution reached maxIterations without resolving!
+FPS: 861.896
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.387
+Constraint resolution reached maxIterations without resolving!
+FPS: 945.02
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.444
+Constraint resolution reached maxIterations without resolving!
+FPS: 2035.45
+Constraint resolution reached maxIterations without resolving!
+FPS: 2293.12
+Constraint resolution reached maxIterations without resolving!
+FPS: 2836.98
+Constraint resolution reached maxIterations without resolving!
+FPS: 2460.79
+Constraint resolution reached maxIterations without resolving!
+FPS: 1868.74
+Constraint resolution reached maxIterations without resolving!
+FPS: 910.942
+Constraint resolution reached maxIterations without resolving!
+FPS: 955.288
+Constraint resolution reached maxIterations without resolving!
+FPS: 966.991
+Constraint resolution reached maxIterations without resolving!
+FPS: 966.938
+Constraint resolution reached maxIterations without resolving!
+FPS: 952.351
+Constraint resolution reached maxIterations without resolving!
+FPS: 879.064
+Constraint resolution reached maxIterations without resolving!
+FPS: 951.676
+Constraint resolution reached maxIterations without resolving!
+FPS: 949.65
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.258
+Constraint resolution reached maxIterations without resolving!
+FPS: 946.777
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.03
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.429
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.992
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.806
+Constraint resolution reached maxIterations without resolving!
+FPS: 802.217
+Constraint resolution reached maxIterations without resolving!
+FPS: 944.013
+Constraint resolution reached maxIterations without resolving!
+FPS: 901.246
+Constraint resolution reached maxIterations without resolving!
+FPS: 956.623
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.713
+Constraint resolution reached maxIterations without resolving!
+FPS: 957.692
+Constraint resolution reached maxIterations without resolving!
+FPS: 1735.47
+Constraint resolution reached maxIterations without resolving!
+FPS: 2688.55
+Constraint resolution reached maxIterations without resolving!
+FPS: 2664.44
+Constraint resolution reached maxIterations without resolving!
+FPS: 2883.46
+Constraint resolution reached maxIterations without resolving!
+FPS: 2567.25
+Constraint resolution reached maxIterations without resolving!
+FPS: 2776.86
+Constraint resolution reached maxIterations without resolving!
+FPS: 2245.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 1405.7
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.171
+Constraint resolution reached maxIterations without resolving!
+FPS: 970.755
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.743
+Constraint resolution reached maxIterations without resolving!
+FPS: 952.815
+Constraint resolution reached maxIterations without resolving!
+FPS: 873.262
+Constraint resolution reached maxIterations without resolving!
+FPS: 961.519
+Constraint resolution reached maxIterations without resolving!
+FPS: 1428.16
+Constraint resolution reached maxIterations without resolving!
+FPS: 1523.41
+Constraint resolution reached maxIterations without resolving!
+FPS: 1387.62
+Constraint resolution reached maxIterations without resolving!
+FPS: 1403.81
+Constraint resolution reached maxIterations without resolving!
+FPS: 1076.05
+Constraint resolution reached maxIterations without resolving!
+FPS: 923.457
+Constraint resolution reached maxIterations without resolving!
+FPS: 901.543
+Constraint resolution reached maxIterations without resolving!
+FPS: 750.778
+Constraint resolution reached maxIterations without resolving!
+FPS: 957.599
+Constraint resolution reached maxIterations without resolving!
+FPS: 831.97
+Constraint resolution reached maxIterations without resolving!
+FPS: 580.405
+Constraint resolution reached maxIterations without resolving!
+FPS: 1510.51
+Constraint resolution reached maxIterations without resolving!
+FPS: 2898.04
+Constraint resolution reached maxIterations without resolving!
+FPS: 2803.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 2776.94
+Constraint resolution reached maxIterations without resolving!
+FPS: 2789.69
+Constraint resolution reached maxIterations without resolving!
+FPS: 2574.28
+Constraint resolution reached maxIterations without resolving!
+FPS: 2768.83
+Constraint resolution reached maxIterations without resolving!
+FPS: 2138.79
+Constraint resolution reached maxIterations without resolving!
+FPS: 974.574
+Constraint resolution reached maxIterations without resolving!
+FPS: 870.408
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.287
+Constraint resolution reached maxIterations without resolving!
+FPS: 957.119
+Constraint resolution reached maxIterations without resolving!
+FPS: 978.195
+Constraint resolution reached maxIterations without resolving!
+FPS: 741.53
+Constraint resolution reached maxIterations without resolving!
+FPS: 1924.34
+Constraint resolution reached maxIterations without resolving!
+FPS: 2880.84
+Constraint resolution reached maxIterations without resolving!
+FPS: 2356.44
+Constraint resolution reached maxIterations without resolving!
+FPS: 988.736
+Constraint resolution reached maxIterations without resolving!
+FPS: 972.709
+Constraint resolution reached maxIterations without resolving!
+FPS: 960.472
+Constraint resolution reached maxIterations without resolving!
+FPS: 1895.95
+Constraint resolution reached maxIterations without resolving!
+FPS: 2774.14
+Constraint resolution reached maxIterations without resolving!
+FPS: 1732.1
+Constraint resolution reached maxIterations without resolving!
+FPS: 1885.8
+Constraint resolution reached maxIterations without resolving!
+FPS: 1864.53
+Constraint resolution reached maxIterations without resolving!
+FPS: 2598.33
+Constraint resolution reached maxIterations without resolving!
+FPS: 2785.72
+Constraint resolution reached maxIterations without resolving!
+FPS: 1549.64
+Constraint resolution reached maxIterations without resolving!
+FPS: 1417.26
+Constraint resolution reached maxIterations without resolving!
+FPS: 2039.48
+Constraint resolution reached maxIterations without resolving!
+FPS: 2810.31
+Constraint resolution reached maxIterations without resolving!
+FPS: 2850.48
+Constraint resolution reached maxIterations without resolving!
+FPS: 2206.47
+Constraint resolution reached maxIterations without resolving!
+FPS: 1204.19
+Constraint resolution reached maxIterations without resolving!
+FPS: 923.145
+Constraint resolution reached maxIterations without resolving!
+FPS: 904.633
+Constraint resolution reached maxIterations without resolving!
+FPS: 915.092
+Constraint resolution reached maxIterations without resolving!
+FPS: 943.368
+Constraint resolution reached maxIterations without resolving!
+FPS: 815.5
+Constraint resolution reached maxIterations without resolving!
+FPS: 968.097
+Constraint resolution reached maxIterations without resolving!
+FPS: 913.34
+Constraint resolution reached maxIterations without resolving!
+FPS: 963.759
+Constraint resolution reached maxIterations without resolving!
+FPS: 975.949
+Constraint resolution reached maxIterations without resolving!
+FPS: 831.323
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.933
+Constraint resolution reached maxIterations without resolving!
+FPS: 895.102
+Constraint resolution reached maxIterations without resolving!
+FPS: 971.756
+Constraint resolution reached maxIterations without resolving!
+FPS: 2167.02
+Constraint resolution reached maxIterations without resolving!
+FPS: 845.706
+Constraint resolution reached maxIterations without resolving!
+FPS: 999.981
+Constraint resolution reached maxIterations without resolving!
+FPS: 802.671
+Constraint resolution reached maxIterations without resolving!
+FPS: 900.28
+Constraint resolution reached maxIterations without resolving!
+FPS: 920.809
+Constraint resolution reached maxIterations without resolving!
+FPS: 898.652
+Constraint resolution reached maxIterations without resolving!
+FPS: 909.427
+Constraint resolution reached maxIterations without resolving!
+FPS: 906.526
+Constraint resolution reached maxIterations without resolving!
+FPS: 893.701
+Constraint resolution reached maxIterations without resolving!
+FPS: 818.238
+Constraint resolution reached maxIterations without resolving!
+FPS: 836.188
+Constraint resolution reached maxIterations without resolving!
+FPS: 946.042
+Constraint resolution reached maxIterations without resolving!
+FPS: 853.835
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.787
+Constraint resolution reached maxIterations without resolving!
+FPS: 667.047
+Constraint resolution reached maxIterations without resolving!
+FPS: 951.908
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.091
+Constraint resolution reached maxIterations without resolving!
+FPS: 860.013
+Constraint resolution reached maxIterations without resolving!
+FPS: 840.781
+Constraint resolution reached maxIterations without resolving!
+FPS: 942.958
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.732
+Constraint resolution reached maxIterations without resolving!
+FPS: 806.791
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.644
+Constraint resolution reached maxIterations without resolving!
+FPS: 839.194
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.989
+Constraint resolution reached maxIterations without resolving!
+FPS: 669.384
+Constraint resolution reached maxIterations without resolving!
+FPS: 964.841
+Constraint resolution reached maxIterations without resolving!
+FPS: 720.849
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.048
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 930.136
+Constraint resolution reached maxIterations without resolving!
+FPS: 893.673
+Constraint resolution reached maxIterations without resolving!
+FPS: 1408.95
+Constraint resolution reached maxIterations without resolving!
+FPS: 1415.55
+Constraint resolution reached maxIterations without resolving!
+FPS: 1442.95
+Constraint resolution reached maxIterations without resolving!
+FPS: 944.156
+Constraint resolution reached maxIterations without resolving!
+FPS: 930.465
+Constraint resolution reached maxIterations without resolving!
+FPS: 848.914
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.734
+Constraint resolution reached maxIterations without resolving!
+FPS: 831.933
+Constraint resolution reached maxIterations without resolving!
+FPS: 875.818
+Constraint resolution reached maxIterations without resolving!
+FPS: 858.525
+Constraint resolution reached maxIterations without resolving!
+FPS: 853.031
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.153
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.734
+Constraint resolution reached maxIterations without resolving!
+FPS: 960.418
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.074
+Constraint resolution reached maxIterations without resolving!
+FPS: 942.819
+Constraint resolution reached maxIterations without resolving!
+FPS: 903.031
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.199
+Constraint resolution reached maxIterations without resolving!
+FPS: 893.66
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.643
+Constraint resolution reached maxIterations without resolving!
+FPS: 961.884
+Constraint resolution reached maxIterations without resolving!
+FPS: 946.992
+Constraint resolution reached maxIterations without resolving!
+FPS: 937.421
+Constraint resolution reached maxIterations without resolving!
+FPS: 768.728
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.05
+Constraint resolution reached maxIterations without resolving!
+FPS: 910.46
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.583
+Constraint resolution reached maxIterations without resolving!
+FPS: 864.805
+Constraint resolution reached maxIterations without resolving!
+FPS: 928.819
+Constraint resolution reached maxIterations without resolving!
+FPS: 821.295
+Constraint resolution reached maxIterations without resolving!
+FPS: 773.538
+Constraint resolution reached maxIterations without resolving!
+FPS: 925.683
+Constraint resolution reached maxIterations without resolving!
+FPS: 865.364
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.543
+Constraint resolution reached maxIterations without resolving!
+FPS: 767.517
+Constraint resolution reached maxIterations without resolving!
+FPS: 916.212
+Constraint resolution reached maxIterations without resolving!
+FPS: 970.101
+Constraint resolution reached maxIterations without resolving!
+FPS: 955.615
+Constraint resolution reached maxIterations without resolving!
+FPS: 942.675
+Constraint resolution reached maxIterations without resolving!
+FPS: 946.299
+Constraint resolution reached maxIterations without resolving!
+FPS: 945.102
+Constraint resolution reached maxIterations without resolving!
+FPS: 905.896
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.742
+Constraint resolution reached maxIterations without resolving!
+FPS: 951.861
+Constraint resolution reached maxIterations without resolving!
+FPS: 918.917
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.35
+Constraint resolution reached maxIterations without resolving!
+FPS: 897.395
+Constraint resolution reached maxIterations without resolving!
+FPS: 933.098
+Constraint resolution reached maxIterations without resolving!
+FPS: 917.112
+Constraint resolution reached maxIterations without resolving!
+FPS: 2254.87
+Constraint resolution reached maxIterations without resolving!
+FPS: 2202.8
+Constraint resolution reached maxIterations without resolving!
+FPS: 857.759
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.393
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.557
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.936
+Constraint resolution reached maxIterations without resolving!
+FPS: 779.66
+Constraint resolution reached maxIterations without resolving!
+FPS: 931.181
+Constraint resolution reached maxIterations without resolving!
+FPS: 834.062
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.784
+Constraint resolution reached maxIterations without resolving!
+FPS: 867.726
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.144
+Constraint resolution reached maxIterations without resolving!
+FPS: 914.481
+Constraint resolution reached maxIterations without resolving!
+FPS: 891.394
+Constraint resolution reached maxIterations without resolving!
+FPS: 887.471
+Constraint resolution reached maxIterations without resolving!
+FPS: 746.819
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.707
+Constraint resolution reached maxIterations without resolving!
+FPS: 789.519
+Constraint resolution reached maxIterations without resolving!
+FPS: 943.351
+Constraint resolution reached maxIterations without resolving!
+FPS: 1384.27
+Constraint resolution reached maxIterations without resolving!
+FPS: 1341.98
+Constraint resolution reached maxIterations without resolving!
+FPS: 1442.81
+Constraint resolution reached maxIterations without resolving!
+FPS: 1420.2
+Constraint resolution reached maxIterations without resolving!
+FPS: 1064.73
+Constraint resolution reached maxIterations without resolving!
+FPS: 984.818
+Constraint resolution reached maxIterations without resolving!
+FPS: 1050.7
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.714
+Constraint resolution reached maxIterations without resolving!
+FPS: 1941.54
+Constraint resolution reached maxIterations without resolving!
+FPS: 2287.04
+Constraint resolution reached maxIterations without resolving!
+FPS: 1915.62
+Constraint resolution reached maxIterations without resolving!
+FPS: 2830.83
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.307
+Constraint resolution reached maxIterations without resolving!
+FPS: 978.451
+Constraint resolution reached maxIterations without resolving!
+FPS: 981.786
+Constraint resolution reached maxIterations without resolving!
+FPS: 956.996
+Constraint resolution reached maxIterations without resolving!
+FPS: 891.715
+Constraint resolution reached maxIterations without resolving!
+FPS: 964.499
+Constraint resolution reached maxIterations without resolving!
+FPS: 914.683
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 856.242
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.268
+Constraint resolution reached maxIterations without resolving!
+FPS: 946.008
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.149
+Constraint resolution reached maxIterations without resolving!
+FPS: 938.671
+Constraint resolution reached maxIterations without resolving!
+FPS: 938.416
+Constraint resolution reached maxIterations without resolving!
+FPS: 956.831
+Constraint resolution reached maxIterations without resolving!
+FPS: 815.701
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.528
+Constraint resolution reached maxIterations without resolving!
+FPS: 780.129
+Constraint resolution reached maxIterations without resolving!
+FPS: 936.719
+Constraint resolution reached maxIterations without resolving!
+FPS: 930.122
+Constraint resolution reached maxIterations without resolving!
+FPS: 820.869
+Constraint resolution reached maxIterations without resolving!
+FPS: 952.409
+Constraint resolution reached maxIterations without resolving!
+FPS: 975.727
+Constraint resolution reached maxIterations without resolving!
+FPS: 958.529
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.832
+Constraint resolution reached maxIterations without resolving!
+FPS: 1316.33
+Constraint resolution reached maxIterations without resolving!
+FPS: 2768.58
+Constraint resolution reached maxIterations without resolving!
+FPS: 2768.68
+Constraint resolution reached maxIterations without resolving!
+FPS: 2819.88
+Constraint resolution reached maxIterations without resolving!
+FPS: 889.071
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.158
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.908
+Constraint resolution reached maxIterations without resolving!
+FPS: 788.346
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.186
+Constraint resolution reached maxIterations without resolving!
+FPS: 617.363
+Constraint resolution reached maxIterations without resolving!
+FPS: 920.841
+Constraint resolution reached maxIterations without resolving!
+FPS: 1937.56
+Constraint resolution reached maxIterations without resolving!
+FPS: 1961.8
+Constraint resolution reached maxIterations without resolving!
+FPS: 1922.15
+Constraint resolution reached maxIterations without resolving!
+FPS: 1767.57
+Constraint resolution reached maxIterations without resolving!
+FPS: 1903.07
+Constraint resolution reached maxIterations without resolving!
+FPS: 2742.63
+Constraint resolution reached maxIterations without resolving!
+FPS: 2898.06
+Constraint resolution reached maxIterations without resolving!
+FPS: 943.141
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.257
+Constraint resolution reached maxIterations without resolving!
+FPS: 837.107
+Constraint resolution reached maxIterations without resolving!
+FPS: 647.525
+Constraint resolution reached maxIterations without resolving!
+FPS: 768.624
+Constraint resolution reached maxIterations without resolving!
+FPS: 1001.7
+Constraint resolution reached maxIterations without resolving!
+FPS: 989.318
+Constraint resolution reached maxIterations without resolving!
+FPS: 908.096
+Constraint resolution reached maxIterations without resolving!
+FPS: 852.686
+Constraint resolution reached maxIterations without resolving!
+FPS: 1212.95
+Constraint resolution reached maxIterations without resolving!
+FPS: 2317.57
+Constraint resolution reached maxIterations without resolving!
+FPS: 831.626
+Constraint resolution reached maxIterations without resolving!
+FPS: 742.246
+Constraint resolution reached maxIterations without resolving!
+FPS: 1761.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 2816.37
+Constraint resolution reached maxIterations without resolving!
+FPS: 944.971
+Constraint resolution reached maxIterations without resolving!
+FPS: 930.384
+Constraint resolution reached maxIterations without resolving!
+FPS: 972.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 968.536
+Constraint resolution reached maxIterations without resolving!
+FPS: 888.875
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.644
+Constraint resolution reached maxIterations without resolving!
+FPS: 969.906
+Constraint resolution reached maxIterations without resolving!
+FPS: 970.692
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.075
+Constraint resolution reached maxIterations without resolving!
+FPS: 968.41
+Constraint resolution reached maxIterations without resolving!
+FPS: 957.608
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.713
+Constraint resolution reached maxIterations without resolving!
+FPS: 951.637
+Constraint resolution reached maxIterations without resolving!
+FPS: 965.157
+Constraint resolution reached maxIterations without resolving!
+FPS: 930.133
+Constraint resolution reached maxIterations without resolving!
+FPS: 943.031
+Constraint resolution reached maxIterations without resolving!
+FPS: 928.776
+Constraint resolution reached maxIterations without resolving!
+FPS: 746.825
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.737
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.177
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.179
+Constraint resolution reached maxIterations without resolving!
+FPS: 825.204
+Constraint resolution reached maxIterations without resolving!
+FPS: 938.974
+Constraint resolution reached maxIterations without resolving!
+FPS: 943.497
+Constraint resolution reached maxIterations without resolving!
+FPS: 944.577
+Constraint resolution reached maxIterations without resolving!
+FPS: 944.092
+Constraint resolution reached maxIterations without resolving!
+FPS: 910.734
+Constraint resolution reached maxIterations without resolving!
+FPS: 857.543
+Constraint resolution reached maxIterations without resolving!
+FPS: 881.313
+Constraint resolution reached maxIterations without resolving!
+FPS: 885.674
+Constraint resolution reached maxIterations without resolving!
+FPS: 848.541
+Constraint resolution reached maxIterations without resolving!
+FPS: 850.399
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.477
+Constraint resolution reached maxIterations without resolving!
+FPS: 936.497
+Constraint resolution reached maxIterations without resolving!
+FPS: 923.817
+Constraint resolution reached maxIterations without resolving!
+FPS: 927.551
+Constraint resolution reached maxIterations without resolving!
+FPS: 885.287
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.058
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.844
+Constraint resolution reached maxIterations without resolving!
+FPS: 608.071
+Constraint resolution reached maxIterations without resolving!
+FPS: 962.848
+Constraint resolution reached maxIterations without resolving!
+FPS: 943.635
+Constraint resolution reached maxIterations without resolving!
+FPS: 956.714
+Constraint resolution reached maxIterations without resolving!
+FPS: 905.131
+Constraint resolution reached maxIterations without resolving!
+FPS: 861.164
+Constraint resolution reached maxIterations without resolving!
+FPS: 972.817
+Constraint resolution reached maxIterations without resolving!
+FPS: 926.87
+Constraint resolution reached maxIterations without resolving!
+FPS: 742.604
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.8
+Constraint resolution reached maxIterations without resolving!
+FPS: 923.88
+Constraint resolution reached maxIterations without resolving!
+FPS: 1421.73
+Constraint resolution reached maxIterations without resolving!
+FPS: 1454.62
+Constraint resolution reached maxIterations without resolving!
+FPS: 1425.93
+Constraint resolution reached maxIterations without resolving!
+FPS: 1275.97
+Constraint resolution reached maxIterations without resolving!
+FPS: 1467.18
+Constraint resolution reached maxIterations without resolving!
+FPS: 1043.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 1045.32
+Constraint resolution reached maxIterations without resolving!
+FPS: 1046.19
+Constraint resolution reached maxIterations without resolving!
+FPS: 981.979
+Constraint resolution reached maxIterations without resolving!
+FPS: 1052.8
+Constraint resolution reached maxIterations without resolving!
+FPS: 964.363
+Constraint resolution reached maxIterations without resolving!
+FPS: 961.049
+Constraint resolution reached maxIterations without resolving!
+FPS: 911.834
+Constraint resolution reached maxIterations without resolving!
+FPS: 986.808
+Constraint resolution reached maxIterations without resolving!
+FPS: 956.959
+Constraint resolution reached maxIterations without resolving!
+FPS: 829.768
+Constraint resolution reached maxIterations without resolving!
+FPS: 959.284
+Constraint resolution reached maxIterations without resolving!
+FPS: 815.24
+Constraint resolution reached maxIterations without resolving!
+FPS: 957.345
+Constraint resolution reached maxIterations without resolving!
+FPS: 1240.16
+Constraint resolution reached maxIterations without resolving!
+FPS: 971.974
+Constraint resolution reached maxIterations without resolving!
+FPS: 1438.07
+Constraint resolution reached maxIterations without resolving!
+FPS: 1415.56
+Constraint resolution reached maxIterations without resolving!
+FPS: 1120.44
+Constraint resolution reached maxIterations without resolving!
+FPS: 839.706
+Constraint resolution reached maxIterations without resolving!
+FPS: 1585.13
+Constraint resolution reached maxIterations without resolving!
+FPS: 2499.41
+Constraint resolution reached maxIterations without resolving!
+FPS: 2418.21
+Constraint resolution reached maxIterations without resolving!
+FPS: 2481.51
+Constraint resolution reached maxIterations without resolving!
+FPS: 785.172
+Constraint resolution reached maxIterations without resolving!
+FPS: 903.902
+Constraint resolution reached maxIterations without resolving!
+FPS: 918.324
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.75
+Constraint resolution reached maxIterations without resolving!
+FPS: 904.372
+Constraint resolution reached maxIterations without resolving!
+FPS: 969.848
+Constraint resolution reached maxIterations without resolving!
+FPS: 901.467
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.421
+Constraint resolution reached maxIterations without resolving!
+FPS: 972.847
+Constraint resolution reached maxIterations without resolving!
+FPS: 957.793
+Constraint resolution reached maxIterations without resolving!
+FPS: 968.558
+Constraint resolution reached maxIterations without resolving!
+FPS: 969.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 963.268
+Constraint resolution reached maxIterations without resolving!
+FPS: 960.73
+Constraint resolution reached maxIterations without resolving!
+FPS: 739.979
+Constraint resolution reached maxIterations without resolving!
+FPS: 764.794
+Constraint resolution reached maxIterations without resolving!
+FPS: 1407.98
+Constraint resolution reached maxIterations without resolving!
+FPS: 2109.35
+Constraint resolution reached maxIterations without resolving!
+FPS: 2356.64
+Constraint resolution reached maxIterations without resolving!
+FPS: 2250.71
+Constraint resolution reached maxIterations without resolving!
+FPS: 2463.2
+Constraint resolution reached maxIterations without resolving!
+FPS: 1919.19
+Constraint resolution reached maxIterations without resolving!
+FPS: 1725.44
+Constraint resolution reached maxIterations without resolving!
+FPS: 989.129
+Constraint resolution reached maxIterations without resolving!
+FPS: 966.036
+Constraint resolution reached maxIterations without resolving!
+FPS: 971.958
+Constraint resolution reached maxIterations without resolving!
+FPS: 972.954
+Constraint resolution reached maxIterations without resolving!
+FPS: 831.796
+Constraint resolution reached maxIterations without resolving!
+FPS: 958.493
+Constraint resolution reached maxIterations without resolving!
+FPS: 911.119
+Constraint resolution reached maxIterations without resolving!
+FPS: 801.122
+Constraint resolution reached maxIterations without resolving!
+FPS: 959.259
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.299
+Constraint resolution reached maxIterations without resolving!
+FPS: 944.335
+Constraint resolution reached maxIterations without resolving!
+FPS: 797.652
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.421
+Constraint resolution reached maxIterations without resolving!
+FPS: 723.049
+Constraint resolution reached maxIterations without resolving!
+FPS: 922.901
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.114
+Constraint resolution reached maxIterations without resolving!
+FPS: 951.616
+Constraint resolution reached maxIterations without resolving!
+FPS: 972.424
+Constraint resolution reached maxIterations without resolving!
+FPS: 905.463
+Constraint resolution reached maxIterations without resolving!
+FPS: 920.124
+Constraint resolution reached maxIterations without resolving!
+FPS: 879.492
+Constraint resolution reached maxIterations without resolving!
+FPS: 919.064
+Constraint resolution reached maxIterations without resolving!
+FPS: 793.714
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.613
+Constraint resolution reached maxIterations without resolving!
+FPS: 838.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.788
+Constraint resolution reached maxIterations without resolving!
+FPS: 951.584
+Constraint resolution reached maxIterations without resolving!
+FPS: 928.065
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.53
+Constraint resolution reached maxIterations without resolving!
+FPS: 793.944
+Constraint resolution reached maxIterations without resolving!
+FPS: 911.454
+Constraint resolution reached maxIterations without resolving!
+FPS: 819.174
+Constraint resolution reached maxIterations without resolving!
+FPS: 919.873
+Constraint resolution reached maxIterations without resolving!
+FPS: 895.887
+Constraint resolution reached maxIterations without resolving!
+FPS: 890.5
+Constraint resolution reached maxIterations without resolving!
+FPS: 796.426
+Constraint resolution reached maxIterations without resolving!
+FPS: 892.251
+Constraint resolution reached maxIterations without resolving!
+FPS: 910.863
+Constraint resolution reached maxIterations without resolving!
+FPS: 883.821
+Constraint resolution reached maxIterations without resolving!
+FPS: 897.924
+Constraint resolution reached maxIterations without resolving!
+FPS: 923.863
+Constraint resolution reached maxIterations without resolving!
+FPS: 825.809
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.877
+Constraint resolution reached maxIterations without resolving!
+FPS: 908.434
+Constraint resolution reached maxIterations without resolving!
+FPS: 917.657
+Constraint resolution reached maxIterations without resolving!
+FPS: 842.398
+Constraint resolution reached maxIterations without resolving!
+FPS: 918.695
+Constraint resolution reached maxIterations without resolving!
+FPS: 817.029
+Constraint resolution reached maxIterations without resolving!
+FPS: 942.921
+Constraint resolution reached maxIterations without resolving!
+FPS: 938.153
+Constraint resolution reached maxIterations without resolving!
+FPS: 1382.28
+Constraint resolution reached maxIterations without resolving!
+FPS: 955.716
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.735
+Constraint resolution reached maxIterations without resolving!
+FPS: 993.091
+Constraint resolution reached maxIterations without resolving!
+FPS: 882.89
+Constraint resolution reached maxIterations without resolving!
+FPS: 921.547
+Constraint resolution reached maxIterations without resolving!
+FPS: 787.56
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.267
+Constraint resolution reached maxIterations without resolving!
+FPS: 942.307
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.762
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.57
+Constraint resolution reached maxIterations without resolving!
+FPS: 781.524
+Constraint resolution reached maxIterations without resolving!
+FPS: 960.255
+Constraint resolution reached maxIterations without resolving!
+FPS: 796.458
+Constraint resolution reached maxIterations without resolving!
+FPS: 911.944
+Constraint resolution reached maxIterations without resolving!
+FPS: 863.809
+Constraint resolution reached maxIterations without resolving!
+FPS: 951.207
+Constraint resolution reached maxIterations without resolving!
+FPS: 918.976
+Constraint resolution reached maxIterations without resolving!
+FPS: 829.696
+Constraint resolution reached maxIterations without resolving!
+FPS: 965.916
+Constraint resolution reached maxIterations without resolving!
+FPS: 2296.34
+Constraint resolution reached maxIterations without resolving!
+FPS: 2245.87
+Constraint resolution reached maxIterations without resolving!
+FPS: 2408.34
+Constraint resolution reached maxIterations without resolving!
+FPS: 1934.48
+Constraint resolution reached maxIterations without resolving!
+FPS: 988.318
+Constraint resolution reached maxIterations without resolving!
+FPS: 907.401
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.348
+Constraint resolution reached maxIterations without resolving!
+FPS: 933.144
+Constraint resolution reached maxIterations without resolving!
+FPS: 918.923
+Constraint resolution reached maxIterations without resolving!
+FPS: 931.663
+Constraint resolution reached maxIterations without resolving!
+FPS: 963.356
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.446
+Constraint resolution reached maxIterations without resolving!
+FPS: 668.864
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.353
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.543
+Constraint resolution reached maxIterations without resolving!
+FPS: 1171.16
+Constraint resolution reached maxIterations without resolving!
+FPS: 2312.94
+Constraint resolution reached maxIterations without resolving!
+FPS: 2796.44
+Constraint resolution reached maxIterations without resolving!
+FPS: 2799.9
+Constraint resolution reached maxIterations without resolving!
+FPS: 2747.66
+Constraint resolution reached maxIterations without resolving!
+FPS: 2772.33
+Constraint resolution reached maxIterations without resolving!
+FPS: 2630.54
+Constraint resolution reached maxIterations without resolving!
+FPS: 2866.07
+Constraint resolution reached maxIterations without resolving!
+FPS: 2692.4
+Constraint resolution reached maxIterations without resolving!
+FPS: 2751.68
+Constraint resolution reached maxIterations without resolving!
+FPS: 1994.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 2730.4
+Constraint resolution reached maxIterations without resolving!
+FPS: 2647.93
+Constraint resolution reached maxIterations without resolving!
+FPS: 2817.47
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.873
+Constraint resolution reached maxIterations without resolving!
+FPS: 785.231
+Constraint resolution reached maxIterations without resolving!
+FPS: 930.283
+Constraint resolution reached maxIterations without resolving!
+FPS: 919.709
+Constraint resolution reached maxIterations without resolving!
+FPS: 931.855
+Constraint resolution reached maxIterations without resolving!
+FPS: 806.136
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.133
+Constraint resolution reached maxIterations without resolving!
+FPS: 937.22
+Constraint resolution reached maxIterations without resolving!
+FPS: 936.293
+Constraint resolution reached maxIterations without resolving!
+FPS: 938.138
+Constraint resolution reached maxIterations without resolving!
+FPS: 927.144
+Constraint resolution reached maxIterations without resolving!
+FPS: 873.597
+Constraint resolution reached maxIterations without resolving!
+FPS: 891.652
+Constraint resolution reached maxIterations without resolving!
+FPS: 600.404
+Constraint resolution reached maxIterations without resolving!
+FPS: 1832.6
+Constraint resolution reached maxIterations without resolving!
+FPS: 2382.51
+Constraint resolution reached maxIterations without resolving!
+FPS: 2335.11
+Constraint resolution reached maxIterations without resolving!
+FPS: 2322.31
+Constraint resolution reached maxIterations without resolving!
+FPS: 2455.67
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.966
+Constraint resolution reached maxIterations without resolving!
+FPS: 945.578
+Constraint resolution reached maxIterations without resolving!
+FPS: 986.357
+Constraint resolution reached maxIterations without resolving!
+FPS: 1926.22
+Constraint resolution reached maxIterations without resolving!
+FPS: 2386.72
+Constraint resolution reached maxIterations without resolving!
+FPS: 2833.45
+Constraint resolution reached maxIterations without resolving!
+FPS: 2712.65
+Constraint resolution reached maxIterations without resolving!
+FPS: 869.247
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.534
+Constraint resolution reached maxIterations without resolving!
+FPS: 1392.8
+Constraint resolution reached maxIterations without resolving!
+FPS: 2803.06
+Constraint resolution reached maxIterations without resolving!
+FPS: 2451.33
+Constraint resolution reached maxIterations without resolving!
+FPS: 2690.75
+Constraint resolution reached maxIterations without resolving!
+FPS: 2961.6
+Constraint resolution reached maxIterations without resolving!
+FPS: 2740.34
+Constraint resolution reached maxIterations without resolving!
+FPS: 963.365
+Constraint resolution reached maxIterations without resolving!
+FPS: 958.806
+Constraint resolution reached maxIterations without resolving!
+FPS: 946.977
+Constraint resolution reached maxIterations without resolving!
+FPS: 898.956
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.284
+Constraint resolution reached maxIterations without resolving!
+FPS: 2323.91
+Constraint resolution reached maxIterations without resolving!
+FPS: 2656.2
+Constraint resolution reached maxIterations without resolving!
+FPS: 2786.9
+Constraint resolution reached maxIterations without resolving!
+FPS: 2831.46
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.545
+Constraint resolution reached maxIterations without resolving!
+FPS: 952.367
+Constraint resolution reached maxIterations without resolving!
+FPS: 965.928
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.885
+Constraint resolution reached maxIterations without resolving!
+FPS: 824.338
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.612
+Constraint resolution reached maxIterations without resolving!
+FPS: 834.536
+Constraint resolution reached maxIterations without resolving!
+FPS: 949.049
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.893
+Constraint resolution reached maxIterations without resolving!
+FPS: 974.243
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.578
+Constraint resolution reached maxIterations without resolving!
+FPS: 914.777
+Constraint resolution reached maxIterations without resolving!
+FPS: 972.721
+Constraint resolution reached maxIterations without resolving!
+FPS: 895.318
+Constraint resolution reached maxIterations without resolving!
+FPS: 875.787
+Constraint resolution reached maxIterations without resolving!
+FPS: 771.828
+Constraint resolution reached maxIterations without resolving!
+FPS: 979.456
+Constraint resolution reached maxIterations without resolving!
+FPS: 1367.24
+Constraint resolution reached maxIterations without resolving!
+FPS: 1433.86
+Constraint resolution reached maxIterations without resolving!
+FPS: 1381.32
+Constraint resolution reached maxIterations without resolving!
+FPS: 1375.41
+Constraint resolution reached maxIterations without resolving!
+FPS: 1067.56
+Constraint resolution reached maxIterations without resolving!
+FPS: 968.677
+Constraint resolution reached maxIterations without resolving!
+FPS: 938.247
+Constraint resolution reached maxIterations without resolving!
+FPS: 843.086
+Constraint resolution reached maxIterations without resolving!
+FPS: 938.785
+Constraint resolution reached maxIterations without resolving!
+FPS: 942.851
+Constraint resolution reached maxIterations without resolving!
+FPS: 1398.27
+Constraint resolution reached maxIterations without resolving!
+FPS: 2727.1
+Constraint resolution reached maxIterations without resolving!
+FPS: 2576.24
+Constraint resolution reached maxIterations without resolving!
+FPS: 623.948
+Constraint resolution reached maxIterations without resolving!
+FPS: 1251.28
+Constraint resolution reached maxIterations without resolving!
+FPS: 2724.65
+Constraint resolution reached maxIterations without resolving!
+FPS: 2245.69
+Constraint resolution reached maxIterations without resolving!
+FPS: 867.845
+Constraint resolution reached maxIterations without resolving!
+FPS: 787.823
+Constraint resolution reached maxIterations without resolving!
+FPS: 949.926
+Constraint resolution reached maxIterations without resolving!
+FPS: 1388.1
+Constraint resolution reached maxIterations without resolving!
+FPS: 2795.15
+Constraint resolution reached maxIterations without resolving!
+FPS: 2805.01
+Constraint resolution reached maxIterations without resolving!
+FPS: 2528.66
+Constraint resolution reached maxIterations without resolving!
+FPS: 915.776
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.891
+Constraint resolution reached maxIterations without resolving!
+FPS: 957.015
+Constraint resolution reached maxIterations without resolving!
+FPS: 2346.87
+Constraint resolution reached maxIterations without resolving!
+FPS: 2747.83
+Constraint resolution reached maxIterations without resolving!
+FPS: 2614.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 2009.1
+Constraint resolution reached maxIterations without resolving!
+FPS: 1345.03
+Constraint resolution reached maxIterations without resolving!
+FPS: 1026.77
+Constraint resolution reached maxIterations without resolving!
+FPS: 1938.53
+Constraint resolution reached maxIterations without resolving!
+FPS: 2811.03
+Constraint resolution reached maxIterations without resolving!
+FPS: 830.424
+Constraint resolution reached maxIterations without resolving!
+FPS: 927.629
+Constraint resolution reached maxIterations without resolving!
+FPS: 952.269
+Constraint resolution reached maxIterations without resolving!
+FPS: 962.367
+Constraint resolution reached maxIterations without resolving!
+FPS: 1677.18
+Constraint resolution reached maxIterations without resolving!
+FPS: 2183.89
+Constraint resolution reached maxIterations without resolving!
+FPS: 2762.2
+Constraint resolution reached maxIterations without resolving!
+FPS: 2571.69
+Constraint resolution reached maxIterations without resolving!
+FPS: 2780.45
+Constraint resolution reached maxIterations without resolving!
+FPS: 2102.48
+Constraint resolution reached maxIterations without resolving!
+FPS: 910.645
+Constraint resolution reached maxIterations without resolving!
+FPS: 777.262
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.145
+Constraint resolution reached maxIterations without resolving!
+FPS: 857.162
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.221
+Constraint resolution reached maxIterations without resolving!
+FPS: 907.958
+Constraint resolution reached maxIterations without resolving!
+FPS: 915.883
+Constraint resolution reached maxIterations without resolving!
+FPS: 949.981
+Constraint resolution reached maxIterations without resolving!
+FPS: 881.635
+Constraint resolution reached maxIterations without resolving!
+FPS: 1001.81
+Constraint resolution reached maxIterations without resolving!
+FPS: 746.175
+Constraint resolution reached maxIterations without resolving!
+FPS: 962.532
+Constraint resolution reached maxIterations without resolving!
+FPS: 925.189
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.785
+Constraint resolution reached maxIterations without resolving!
+FPS: 1076.78
+Constraint resolution reached maxIterations without resolving!
+FPS: 1341.85
+Constraint resolution reached maxIterations without resolving!
+FPS: 1387.19
+Constraint resolution reached maxIterations without resolving!
+FPS: 1368.33
+Constraint resolution reached maxIterations without resolving!
+FPS: 1371.54
+Constraint resolution reached maxIterations without resolving!
+FPS: 1433.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 1019.43
+Constraint resolution reached maxIterations without resolving!
+FPS: 960.778
+Constraint resolution reached maxIterations without resolving!
+FPS: 949.852
+Constraint resolution reached maxIterations without resolving!
+FPS: 908.929
+Constraint resolution reached maxIterations without resolving!
+FPS: 946.897
+Constraint resolution reached maxIterations without resolving!
+FPS: 2348.31
+Constraint resolution reached maxIterations without resolving!
+FPS: 2755.85
+Constraint resolution reached maxIterations without resolving!
+FPS: 2170.24
+Constraint resolution reached maxIterations without resolving!
+FPS: 817.991
+Constraint resolution reached maxIterations without resolving!
+FPS: 919.147
+Constraint resolution reached maxIterations without resolving!
+FPS: 1464.95
+Constraint resolution reached maxIterations without resolving!
+FPS: 1943.78
+Constraint resolution reached maxIterations without resolving!
+FPS: 2763.78
+Constraint resolution reached maxIterations without resolving!
+FPS: 2738.92
+Constraint resolution reached maxIterations without resolving!
+FPS: 2064.5
+Constraint resolution reached maxIterations without resolving!
+FPS: 838.783
+Constraint resolution reached maxIterations without resolving!
+FPS: 972.783
+Constraint resolution reached maxIterations without resolving!
+FPS: 1380.66
+Constraint resolution reached maxIterations without resolving!
+FPS: 2428.54
+Constraint resolution reached maxIterations without resolving!
+FPS: 2615.83
+Constraint resolution reached maxIterations without resolving!
+FPS: 2806.07
+Constraint resolution reached maxIterations without resolving!
+FPS: 2137.96
+Constraint resolution reached maxIterations without resolving!
+FPS: 2202.83
+Constraint resolution reached maxIterations without resolving!
+FPS: 976.801
+Constraint resolution reached maxIterations without resolving!
+FPS: 890.21
+Constraint resolution reached maxIterations without resolving!
+FPS: 860.241
+Constraint resolution reached maxIterations without resolving!
+FPS: 965.895
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.651
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.719
+Constraint resolution reached maxIterations without resolving!
+FPS: 832.277
+Constraint resolution reached maxIterations without resolving!
+FPS: 1393.25
+Constraint resolution reached maxIterations without resolving!
+FPS: 2479.25
+Constraint resolution reached maxIterations without resolving!
+FPS: 2586.75
+Constraint resolution reached maxIterations without resolving!
+FPS: 2476.56
+Constraint resolution reached maxIterations without resolving!
+FPS: 2094.56
+Constraint resolution reached maxIterations without resolving!
+FPS: 1696.62
+Constraint resolution reached maxIterations without resolving!
+FPS: 1084.03
+Constraint resolution reached maxIterations without resolving!
+FPS: 1395.21
+Constraint resolution reached maxIterations without resolving!
+FPS: 1371.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 1372.81
+Constraint resolution reached maxIterations without resolving!
+FPS: 1227.28
+Constraint resolution reached maxIterations without resolving!
+FPS: 966.137
+Constraint resolution reached maxIterations without resolving!
+FPS: 907.451
+Constraint resolution reached maxIterations without resolving!
+FPS: 895.54
+Constraint resolution reached maxIterations without resolving!
+FPS: 641.109
+Constraint resolution reached maxIterations without resolving!
+FPS: 855.687
+Constraint resolution reached maxIterations without resolving!
+FPS: 2854.96
+Constraint resolution reached maxIterations without resolving!
+FPS: 2606.28
+Constraint resolution reached maxIterations without resolving!
+FPS: 949.71
+Constraint resolution reached maxIterations without resolving!
+FPS: 960.367
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.947
+Constraint resolution reached maxIterations without resolving!
+FPS: 1519.45
+Constraint resolution reached maxIterations without resolving!
+FPS: 2608.31
+Constraint resolution reached maxIterations without resolving!
+FPS: 669.551
+Constraint resolution reached maxIterations without resolving!
+FPS: 938.023
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.459
+Constraint resolution reached maxIterations without resolving!
+FPS: 733.755
+Constraint resolution reached maxIterations without resolving!
+FPS: 678.028
+Constraint resolution reached maxIterations without resolving!
+FPS: 942.465
+Constraint resolution reached maxIterations without resolving!
+FPS: 908.448
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.619
+Constraint resolution reached maxIterations without resolving!
+FPS: 931.258
+Constraint resolution reached maxIterations without resolving!
+FPS: 968.098
+Constraint resolution reached maxIterations without resolving!
+FPS: 620.833
+Constraint resolution reached maxIterations without resolving!
+FPS: 863.963
+Constraint resolution reached maxIterations without resolving!
+FPS: 925.078
+Constraint resolution reached maxIterations without resolving!
+FPS: 732.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 930.257
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.477
+Constraint resolution reached maxIterations without resolving!
+FPS: 1867.21
+Constraint resolution reached maxIterations without resolving!
+FPS: 2506.33
+Constraint resolution reached maxIterations without resolving!
+FPS: 958.866
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.595
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.751
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.103
+Constraint resolution reached maxIterations without resolving!
+FPS: 2765.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 2514.14
+Constraint resolution reached maxIterations without resolving!
+FPS: 1389.21
+Constraint resolution reached maxIterations without resolving!
+FPS: 1300.64
+Constraint resolution reached maxIterations without resolving!
+FPS: 1368.81
+Constraint resolution reached maxIterations without resolving!
+FPS: 969.212
+Constraint resolution reached maxIterations without resolving!
+FPS: 818.283
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.473
+Constraint resolution reached maxIterations without resolving!
+FPS: 916.186
+Constraint resolution reached maxIterations without resolving!
+FPS: 952.21
+Constraint resolution reached maxIterations without resolving!
+FPS: 933.69
+Constraint resolution reached maxIterations without resolving!
+FPS: 800.91
+Constraint resolution reached maxIterations without resolving!
+FPS: 946.912
+Constraint resolution reached maxIterations without resolving!
+FPS: 871.426
+Constraint resolution reached maxIterations without resolving!
+FPS: 964.826
+Constraint resolution reached maxIterations without resolving!
+FPS: 989.227
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.644
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 892.179
+Constraint resolution reached maxIterations without resolving!
+FPS: 946
+Constraint resolution reached maxIterations without resolving!
+FPS: 1980.17
+Constraint resolution reached maxIterations without resolving!
+FPS: 777.07
+Constraint resolution reached maxIterations without resolving!
+FPS: 976.719
+Constraint resolution reached maxIterations without resolving!
+FPS: 966.052
+Constraint resolution reached maxIterations without resolving!
+FPS: 949.899
+Constraint resolution reached maxIterations without resolving!
+FPS: 2449.37
+Constraint resolution reached maxIterations without resolving!
+FPS: 2681.22
+Constraint resolution reached maxIterations without resolving!
+FPS: 2730.2
+Constraint resolution reached maxIterations without resolving!
+FPS: 2769.91
+Constraint resolution reached maxIterations without resolving!
+FPS: 2089.73
+Constraint resolution reached maxIterations without resolving!
+FPS: 2132.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 988.436
+Constraint resolution reached maxIterations without resolving!
+FPS: 963.078
+Constraint resolution reached maxIterations without resolving!
+FPS: 920.839
+Constraint resolution reached maxIterations without resolving!
+FPS: 2052.29
+Constraint resolution reached maxIterations without resolving!
+FPS: 2733.03
+Constraint resolution reached maxIterations without resolving!
+FPS: 2410.25
+Constraint resolution reached maxIterations without resolving!
+FPS: 1781.38
+Constraint resolution reached maxIterations without resolving!
+FPS: 1031.32
+Constraint resolution reached maxIterations without resolving!
+FPS: 1336.97
+Constraint resolution reached maxIterations without resolving!
+FPS: 2548.44
+Constraint resolution reached maxIterations without resolving!
+FPS: 2607.98
+Constraint resolution reached maxIterations without resolving!
+FPS: 973.184
+Constraint resolution reached maxIterations without resolving!
+FPS: 1737.89
+Constraint resolution reached maxIterations without resolving!
+FPS: 2849.14
+Constraint resolution reached maxIterations without resolving!
+FPS: 2745.46
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.71
+Constraint resolution reached maxIterations without resolving!
+FPS: 824.928
+Constraint resolution reached maxIterations without resolving!
+FPS: 826.522
+Constraint resolution reached maxIterations without resolving!
+FPS: 975.212
+Constraint resolution reached maxIterations without resolving!
+FPS: 995.903
+Constraint resolution reached maxIterations without resolving!
+FPS: 815.868
+Constraint resolution reached maxIterations without resolving!
+FPS: 1551.13
+Constraint resolution reached maxIterations without resolving!
+FPS: 2853.69
+Constraint resolution reached maxIterations without resolving!
+FPS: 2842.1
+Constraint resolution reached maxIterations without resolving!
+FPS: 2420.24
+Constraint resolution reached maxIterations without resolving!
+FPS: 1860.66
+Constraint resolution reached maxIterations without resolving!
+FPS: 2681.81
+Constraint resolution reached maxIterations without resolving!
+FPS: 2915.37
+Constraint resolution reached maxIterations without resolving!
+FPS: 2749.91
+Constraint resolution reached maxIterations without resolving!
+FPS: 943.517
+Constraint resolution reached maxIterations without resolving!
+FPS: 961.63
+Constraint resolution reached maxIterations without resolving!
+FPS: 990.737
+Constraint resolution reached maxIterations without resolving!
+FPS: 1560.32
+Constraint resolution reached maxIterations without resolving!
+FPS: 2794.22
+Constraint resolution reached maxIterations without resolving!
+FPS: 928.316
+Constraint resolution reached maxIterations without resolving!
+FPS: 956.213
+Constraint resolution reached maxIterations without resolving!
+FPS: 994.796
+Constraint resolution reached maxIterations without resolving!
+FPS: 898.694
+Constraint resolution reached maxIterations without resolving!
+FPS: 910.386
+Constraint resolution reached maxIterations without resolving!
+FPS: 890.416
+Constraint resolution reached maxIterations without resolving!
+FPS: 969.497
+Constraint resolution reached maxIterations without resolving!
+FPS: 881.107
+Constraint resolution reached maxIterations without resolving!
+FPS: 713.011
+Constraint resolution reached maxIterations without resolving!
+FPS: 764.572
+Constraint resolution reached maxIterations without resolving!
+FPS: 638.398
+Constraint resolution reached maxIterations without resolving!
+FPS: 1768.75
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.231
+Constraint resolution reached maxIterations without resolving!
+FPS: 831.865
+Constraint resolution reached maxIterations without resolving!
+FPS: 602.592
+Constraint resolution reached maxIterations without resolving!
+FPS: 844.508
+Constraint resolution reached maxIterations without resolving!
+FPS: 1878.78
+Constraint resolution reached maxIterations without resolving!
+FPS: 1238.93
+Constraint resolution reached maxIterations without resolving!
+FPS: 1827.61
+Constraint resolution reached maxIterations without resolving!
+FPS: 1782.43
+Constraint resolution reached maxIterations without resolving!
+FPS: 1191.34
+Constraint resolution reached maxIterations without resolving!
+FPS: 819.926
+Constraint resolution reached maxIterations without resolving!
+FPS: 921.462
+Constraint resolution reached maxIterations without resolving!
+FPS: 877.542
+Constraint resolution reached maxIterations without resolving!
+FPS: 872.602
+Constraint resolution reached maxIterations without resolving!
+FPS: 851.599
+Constraint resolution reached maxIterations without resolving!
+FPS: 622.755
+Constraint resolution reached maxIterations without resolving!
+FPS: 835.259
+Constraint resolution reached maxIterations without resolving!
+FPS: 733.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 868.553
+Constraint resolution reached maxIterations without resolving!
+FPS: 574.323
+Constraint resolution reached maxIterations without resolving!
+FPS: 623.067
+Constraint resolution reached maxIterations without resolving!
+FPS: 1598.53
+Constraint resolution reached maxIterations without resolving!
+FPS: 1322.22
+Constraint resolution reached maxIterations without resolving!
+FPS: 1609.17
+Constraint resolution reached maxIterations without resolving!
+FPS: 1785.27
+Constraint resolution reached maxIterations without resolving!
+FPS: 1138.76
+Constraint resolution reached maxIterations without resolving!
+FPS: 1121.72
+Constraint resolution reached maxIterations without resolving!
+FPS: 2146.44
+Constraint resolution reached maxIterations without resolving!
+FPS: 1396.75
+Constraint resolution reached maxIterations without resolving!
+FPS: 1768.38
+Constraint resolution reached maxIterations without resolving!
+FPS: 2753.95
+Constraint resolution reached maxIterations without resolving!
+FPS: 900.079
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.045
+Constraint resolution reached maxIterations without resolving!
+FPS: 607.2
+Constraint resolution reached maxIterations without resolving!
+FPS: 794.511
+Constraint resolution reached maxIterations without resolving!
+FPS: 1823.37
+Constraint resolution reached maxIterations without resolving!
+FPS: 1941.87
+Constraint resolution reached maxIterations without resolving!
+FPS: 2718.22
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.68
+Constraint resolution reached maxIterations without resolving!
+FPS: 886.433
+Constraint resolution reached maxIterations without resolving!
+FPS: 1441.53
+Constraint resolution reached maxIterations without resolving!
+FPS: 2817
+Constraint resolution reached maxIterations without resolving!
+FPS: 2815.81
+Constraint resolution reached maxIterations without resolving!
+FPS: 630.638
+Constraint resolution reached maxIterations without resolving!
+FPS: 898.889
+Constraint resolution reached maxIterations without resolving!
+FPS: 638.062
+Constraint resolution reached maxIterations without resolving!
+FPS: 880.601
+Constraint resolution reached maxIterations without resolving!
+FPS: 1345.73
+Constraint resolution reached maxIterations without resolving!
+FPS: 1442.64
+Constraint resolution reached maxIterations without resolving!
+FPS: 1314.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 1358.94
+Constraint resolution reached maxIterations without resolving!
+FPS: 2679.22
+Constraint resolution reached maxIterations without resolving!
+FPS: 2768.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 2657.67
+Constraint resolution reached maxIterations without resolving!
+FPS: 791.745
+Constraint resolution reached maxIterations without resolving!
+FPS: 853.007
+Constraint resolution reached maxIterations without resolving!
+FPS: 765.518
+Constraint resolution reached maxIterations without resolving!
+FPS: 957.332
+Constraint resolution reached maxIterations without resolving!
+FPS: 790.282
+Constraint resolution reached maxIterations without resolving!
+FPS: 918.286
+Constraint resolution reached maxIterations without resolving!
+FPS: 915.814
+Constraint resolution reached maxIterations without resolving!
+FPS: 911.002
+Constraint resolution reached maxIterations without resolving!
+FPS: 927.67
+Constraint resolution reached maxIterations without resolving!
+FPS: 868.169
+Constraint resolution reached maxIterations without resolving!
+FPS: 2430.96
+Constraint resolution reached maxIterations without resolving!
+FPS: 809.461
+Constraint resolution reached maxIterations without resolving!
+FPS: 1911.11
+Constraint resolution reached maxIterations without resolving!
+FPS: 1837.79
+Constraint resolution reached maxIterations without resolving!
+FPS: 1953.89
+Constraint resolution reached maxIterations without resolving!
+FPS: 957.014
+Constraint resolution reached maxIterations without resolving!
+FPS: 945.804
+Constraint resolution reached maxIterations without resolving!
+FPS: 920.652
+Constraint resolution reached maxIterations without resolving!
+FPS: 797.664
+Constraint resolution reached maxIterations without resolving!
+FPS: 904.068
+Constraint resolution reached maxIterations without resolving!
+FPS: 840.87
+Constraint resolution reached maxIterations without resolving!
+FPS: 927.486
+Constraint resolution reached maxIterations without resolving!
+FPS: 822.619
+Constraint resolution reached maxIterations without resolving!
+FPS: 839.593
+Constraint resolution reached maxIterations without resolving!
+FPS: 1877.51
+Constraint resolution reached maxIterations without resolving!
+FPS: 2267.1
+Constraint resolution reached maxIterations without resolving!
+FPS: 828.972
+Constraint resolution reached maxIterations without resolving!
+FPS: 869.409
+Constraint resolution reached maxIterations without resolving!
+FPS: 911.011
+Constraint resolution reached maxIterations without resolving!
+FPS: 837.237
+Constraint resolution reached maxIterations without resolving!
+FPS: 923.468
+Constraint resolution reached maxIterations without resolving!
+FPS: 910.102
+Constraint resolution reached maxIterations without resolving!
+FPS: 898.396
+Constraint resolution reached maxIterations without resolving!
+FPS: 917.828
+Constraint resolution reached maxIterations without resolving!
+FPS: 900.285
+Constraint resolution reached maxIterations without resolving!
+FPS: 923.337
+Constraint resolution reached maxIterations without resolving!
+FPS: 827.101
+Constraint resolution reached maxIterations without resolving!
+FPS: 866.667
+Constraint resolution reached maxIterations without resolving!
+FPS: 909.445
+Constraint resolution reached maxIterations without resolving!
+FPS: 923.463
+Constraint resolution reached maxIterations without resolving!
+FPS: 873.976
+Constraint resolution reached maxIterations without resolving!
+FPS: 1842.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 887.463
+Constraint resolution reached maxIterations without resolving!
+FPS: 853.095
+Constraint resolution reached maxIterations without resolving!
+FPS: 917.812
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.26
+Constraint resolution reached maxIterations without resolving!
+FPS: 913.989
+Constraint resolution reached maxIterations without resolving!
+FPS: 855.603
+Constraint resolution reached maxIterations without resolving!
+FPS: 917.818
+Constraint resolution reached maxIterations without resolving!
+FPS: 915.98
+Constraint resolution reached maxIterations without resolving!
+FPS: 912.929
+Constraint resolution reached maxIterations without resolving!
+FPS: 878.476
+Constraint resolution reached maxIterations without resolving!
+FPS: 2279.3
+Constraint resolution reached maxIterations without resolving!
+FPS: 2768.76
+Constraint resolution reached maxIterations without resolving!
+FPS: 786.05
+Constraint resolution reached maxIterations without resolving!
+FPS: 905.683
+Constraint resolution reached maxIterations without resolving!
+FPS: 673.987
+Constraint resolution reached maxIterations without resolving!
+FPS: 912.45
+Constraint resolution reached maxIterations without resolving!
+FPS: 916.419
+Constraint resolution reached maxIterations without resolving!
+FPS: 1353.39
+Constraint resolution reached maxIterations without resolving!
+FPS: 2717.2
+Constraint resolution reached maxIterations without resolving!
+FPS: 2704.41
+Constraint resolution reached maxIterations without resolving!
+FPS: 825.357
+Constraint resolution reached maxIterations without resolving!
+FPS: 919.245
+Constraint resolution reached maxIterations without resolving!
+FPS: 1394.48
+Constraint resolution reached maxIterations without resolving!
+FPS: 2285.81
+Constraint resolution reached maxIterations without resolving!
+FPS: 2536.64
+Constraint resolution reached maxIterations without resolving!
+FPS: 2532.56
+Constraint resolution reached maxIterations without resolving!
+FPS: 2713.67
+Constraint resolution reached maxIterations without resolving!
+FPS: 780.128
+Constraint resolution reached maxIterations without resolving!
+FPS: 854.165
+Constraint resolution reached maxIterations without resolving!
+FPS: 705.82
+Constraint resolution reached maxIterations without resolving!
+FPS: 1771.69
+Constraint resolution reached maxIterations without resolving!
+FPS: 1878.08
+Constraint resolution reached maxIterations without resolving!
+FPS: 2480.69
+Constraint resolution reached maxIterations without resolving!
+FPS: 2679.83
+Constraint resolution reached maxIterations without resolving!
+FPS: 2525.68
+Constraint resolution reached maxIterations without resolving!
+FPS: 1543.19
+Constraint resolution reached maxIterations without resolving!
+FPS: 2152.66
+Constraint resolution reached maxIterations without resolving!
+FPS: 1793.95
+Constraint resolution reached maxIterations without resolving!
+FPS: 1655.22
+Constraint resolution reached maxIterations without resolving!
+FPS: 1709.08
+Constraint resolution reached maxIterations without resolving!
+FPS: 890.384
+Constraint resolution reached maxIterations without resolving!
+FPS: 1098.05
+Constraint resolution reached maxIterations without resolving!
+FPS: 1888.19
+Constraint resolution reached maxIterations without resolving!
+FPS: 2592.68
+Constraint resolution reached maxIterations without resolving!
+FPS: 2647
+Constraint resolution reached maxIterations without resolving!
+FPS: 2599.79
+Constraint resolution reached maxIterations without resolving!
+FPS: 933.84
+Constraint resolution reached maxIterations without resolving!
+FPS: 755.329
+Constraint resolution reached maxIterations without resolving!
+FPS: 912.148
+Constraint resolution reached maxIterations without resolving!
+FPS: 994.392
+Constraint resolution reached maxIterations without resolving!
+FPS: 1745.46
+Constraint resolution reached maxIterations without resolving!
+FPS: 2379.64
+Constraint resolution reached maxIterations without resolving!
+FPS: 2532.22
+Constraint resolution reached maxIterations without resolving!
+FPS: 2427.3
+Constraint resolution reached maxIterations without resolving!
+FPS: 2650.09
+Constraint resolution reached maxIterations without resolving!
+FPS: 2541.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 2739.64
+Constraint resolution reached maxIterations without resolving!
+FPS: 2267.28
+Constraint resolution reached maxIterations without resolving!
+FPS: 2424.62
+Constraint resolution reached maxIterations without resolving!
+FPS: 2765.91
+Constraint resolution reached maxIterations without resolving!
+FPS: 2383.07
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.052
+Constraint resolution reached maxIterations without resolving!
+FPS: 938.246
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.597
+Constraint resolution reached maxIterations without resolving!
+FPS: 2345.19
+Constraint resolution reached maxIterations without resolving!
+FPS: 2355.27
+Constraint resolution reached maxIterations without resolving!
+FPS: 2423.48
+Constraint resolution reached maxIterations without resolving!
+FPS: 2438.67
+Constraint resolution reached maxIterations without resolving!
+FPS: 2402.39
+Constraint resolution reached maxIterations without resolving!
+FPS: 2806.97
+Constraint resolution reached maxIterations without resolving!
+FPS: 2606.33
+Constraint resolution reached maxIterations without resolving!
+FPS: 2406.57
+Constraint resolution reached maxIterations without resolving!
+FPS: 2552.42
+Constraint resolution reached maxIterations without resolving!
+FPS: 1259.57
+Constraint resolution reached maxIterations without resolving!
+FPS: 1184.46
+Constraint resolution reached maxIterations without resolving!
+FPS: 2662.43
+Constraint resolution reached maxIterations without resolving!
+FPS: 2715.28
+Constraint resolution reached maxIterations without resolving!
+FPS: 2826.29
+Constraint resolution reached maxIterations without resolving!
+FPS: 2606.89
+Constraint resolution reached maxIterations without resolving!
+FPS: 2295.05
+Constraint resolution reached maxIterations without resolving!
+FPS: 2232.89
+Constraint resolution reached maxIterations without resolving!
+FPS: 2464.27
+Constraint resolution reached maxIterations without resolving!
+FPS: 2830.98
+Constraint resolution reached maxIterations without resolving!
+FPS: 2420.11
+Constraint resolution reached maxIterations without resolving!
+FPS: 1776.08
+Constraint resolution reached maxIterations without resolving!
+FPS: 2716.29
+Constraint resolution reached maxIterations without resolving!
+FPS: 863.182
+Constraint resolution reached maxIterations without resolving!
+FPS: 914.924
+Constraint resolution reached maxIterations without resolving!
+FPS: 2271.07
+Constraint resolution reached maxIterations without resolving!
+FPS: 2307.93
+Constraint resolution reached maxIterations without resolving!
+FPS: 2700.73
+Constraint resolution reached maxIterations without resolving!
+FPS: 2645.2
+Constraint resolution reached maxIterations without resolving!
+FPS: 1839.55
+Constraint resolution reached maxIterations without resolving!
+FPS: 2698.95
+Constraint resolution reached maxIterations without resolving!
+FPS: 968.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 874.325
+Constraint resolution reached maxIterations without resolving!
+FPS: 891.517
+Constraint resolution reached maxIterations without resolving!
+FPS: 891.227
+Constraint resolution reached maxIterations without resolving!
+FPS: 903.126
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.475
+Constraint resolution reached maxIterations without resolving!
+FPS: 907.579
+Constraint resolution reached maxIterations without resolving!
+FPS: 856.483
+Constraint resolution reached maxIterations without resolving!
+FPS: 856.131
+Constraint resolution reached maxIterations without resolving!
+FPS: 921.111
+Constraint resolution reached maxIterations without resolving!
+FPS: 644.854
+Constraint resolution reached maxIterations without resolving!
+FPS: 887.443
+Constraint resolution reached maxIterations without resolving!
+FPS: 758.925
+Constraint resolution reached maxIterations without resolving!
+FPS: 911.754
+Constraint resolution reached maxIterations without resolving!
+FPS: 927.373
+Constraint resolution reached maxIterations without resolving!
+FPS: 1379.65
+Constraint resolution reached maxIterations without resolving!
+FPS: 2759.69
+Constraint resolution reached maxIterations without resolving!
+FPS: 2638.39
+Constraint resolution reached maxIterations without resolving!
+FPS: 2730.84
+Constraint resolution reached maxIterations without resolving!
+FPS: 2718.05
+Constraint resolution reached maxIterations without resolving!
+FPS: 2655.33
+Constraint resolution reached maxIterations without resolving!
+FPS: 2089.29
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.867
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.547
+Constraint resolution reached maxIterations without resolving!
+FPS: 912.847
+Constraint resolution reached maxIterations without resolving!
+FPS: 695.953
+Constraint resolution reached maxIterations without resolving!
+FPS: 782.263
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.185
+Constraint resolution reached maxIterations without resolving!
+FPS: 841.533
+Constraint resolution reached maxIterations without resolving!
+FPS: 927.65
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.922
+Constraint resolution reached maxIterations without resolving!
+FPS: 915.532
+Constraint resolution reached maxIterations without resolving!
+FPS: 927.074
+Constraint resolution reached maxIterations without resolving!
+FPS: 812.485
+Constraint resolution reached maxIterations without resolving!
+FPS: 1024.84
+Constraint resolution reached maxIterations without resolving!
+FPS: 2295.82
+Constraint resolution reached maxIterations without resolving!
+FPS: 2607.49
+Constraint resolution reached maxIterations without resolving!
+FPS: 2553.01
+Constraint resolution reached maxIterations without resolving!
+FPS: 942.103
+Constraint resolution reached maxIterations without resolving!
+FPS: 787.341
+Constraint resolution reached maxIterations without resolving!
+FPS: 898.531
+Constraint resolution reached maxIterations without resolving!
+FPS: 912.251
+Constraint resolution reached maxIterations without resolving!
+FPS: 920.182
+Constraint resolution reached maxIterations without resolving!
+FPS: 925.828
+Constraint resolution reached maxIterations without resolving!
+FPS: 907.453
+Constraint resolution reached maxIterations without resolving!
+FPS: 1382.53
+Constraint resolution reached maxIterations without resolving!
+FPS: 2708.07
+Constraint resolution reached maxIterations without resolving!
+FPS: 2616.55
+Constraint resolution reached maxIterations without resolving!
+FPS: 2734.34
+Constraint resolution reached maxIterations without resolving!
+FPS: 1713.61
+Constraint resolution reached maxIterations without resolving!
+FPS: 988.077
+Constraint resolution reached maxIterations without resolving!
+FPS: 924.83
+Constraint resolution reached maxIterations without resolving!
+FPS: 950.432
+Constraint resolution reached maxIterations without resolving!
+FPS: 897.602
+Constraint resolution reached maxIterations without resolving!
+FPS: 952.856
+Constraint resolution reached maxIterations without resolving!
+FPS: 690.951
+Constraint resolution reached maxIterations without resolving!
+FPS: 895.423
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.987
+Constraint resolution reached maxIterations without resolving!
+FPS: 791.309
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.146
+Constraint resolution reached maxIterations without resolving!
+FPS: 883.047
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.846
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.004
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.65
+Constraint resolution reached maxIterations without resolving!
+FPS: 2434.1
+Constraint resolution reached maxIterations without resolving!
+FPS: 2272.25
+Constraint resolution reached maxIterations without resolving!
+FPS: 2652.14
+Constraint resolution reached maxIterations without resolving!
+FPS: 2450.3
+Constraint resolution reached maxIterations without resolving!
+FPS: 921.926
+Constraint resolution reached maxIterations without resolving!
+FPS: 893.157
+Constraint resolution reached maxIterations without resolving!
+FPS: 832.146
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.861
+Constraint resolution reached maxIterations without resolving!
+FPS: 944.81
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.379
+Constraint resolution reached maxIterations without resolving!
+FPS: 874.523
+Constraint resolution reached maxIterations without resolving!
+FPS: 931.076
+Constraint resolution reached maxIterations without resolving!
+FPS: 877.241
+Constraint resolution reached maxIterations without resolving!
+FPS: 937.12
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.557
+Constraint resolution reached maxIterations without resolving!
+FPS: 618.396
+Constraint resolution reached maxIterations without resolving!
+FPS: 619.545
+Constraint resolution reached maxIterations without resolving!
+FPS: 1615.34
+Constraint resolution reached maxIterations without resolving!
+FPS: 2670.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 2481.64
+Constraint resolution reached maxIterations without resolving!
+FPS: 905.158
+Constraint resolution reached maxIterations without resolving!
+FPS: 679.525
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.868
+Constraint resolution reached maxIterations without resolving!
+FPS: 968.229
+Constraint resolution reached maxIterations without resolving!
+FPS: 931.198
+Constraint resolution reached maxIterations without resolving!
+FPS: 1394.57
+Constraint resolution reached maxIterations without resolving!
+FPS: 2821.43
+Constraint resolution reached maxIterations without resolving!
+FPS: 2717.73
+Constraint resolution reached maxIterations without resolving!
+FPS: 2636.82
+Constraint resolution reached maxIterations without resolving!
+FPS: 2281.15
+Constraint resolution reached maxIterations without resolving!
+FPS: 1385.74
+Constraint resolution reached maxIterations without resolving!
+FPS: 915.38
+Constraint resolution reached maxIterations without resolving!
+FPS: 927.145
+Constraint resolution reached maxIterations without resolving!
+FPS: 927.173
+Constraint resolution reached maxIterations without resolving!
+FPS: 923.539
+Constraint resolution reached maxIterations without resolving!
+FPS: 872.756
+Constraint resolution reached maxIterations without resolving!
+FPS: 738.136
+Constraint resolution reached maxIterations without resolving!
+FPS: 898.034
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.903
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.092
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.826
+Constraint resolution reached maxIterations without resolving!
+FPS: 949.976
+Constraint resolution reached maxIterations without resolving!
+FPS: 869.766
+Constraint resolution reached maxIterations without resolving!
+FPS: 557.361
+Constraint resolution reached maxIterations without resolving!
+FPS: 631.187
+Constraint resolution reached maxIterations without resolving!
+FPS: 1871.5
+Constraint resolution reached maxIterations without resolving!
+FPS: 1383.32
+Constraint resolution reached maxIterations without resolving!
+FPS: 963.325
+Constraint resolution reached maxIterations without resolving!
+FPS: 961.044
+Constraint resolution reached maxIterations without resolving!
+FPS: 2787.28
+Constraint resolution reached maxIterations without resolving!
+FPS: 959.338
+Constraint resolution reached maxIterations without resolving!
+FPS: 807.477
+Constraint resolution reached maxIterations without resolving!
+FPS: 959.13
+Constraint resolution reached maxIterations without resolving!
+FPS: 960.285
+Constraint resolution reached maxIterations without resolving!
+FPS: 1905.9
+Constraint resolution reached maxIterations without resolving!
+FPS: 2844.12
+Constraint resolution reached maxIterations without resolving!
+FPS: 896.332
+Constraint resolution reached maxIterations without resolving!
+FPS: 933.376
+Constraint resolution reached maxIterations without resolving!
+FPS: 766.137
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.729
+Constraint resolution reached maxIterations without resolving!
+FPS: 945.6
+Constraint resolution reached maxIterations without resolving!
+FPS: 916.635
+Constraint resolution reached maxIterations without resolving!
+FPS: 894.003
+Constraint resolution reached maxIterations without resolving!
+FPS: 914.511
+Constraint resolution reached maxIterations without resolving!
+FPS: 901.198
+Constraint resolution reached maxIterations without resolving!
+FPS: 904.582
+Constraint resolution reached maxIterations without resolving!
+FPS: 729.719
+Constraint resolution reached maxIterations without resolving!
+FPS: 853.893
+Constraint resolution reached maxIterations without resolving!
+FPS: 930.028
+Constraint resolution reached maxIterations without resolving!
+FPS: 836.93
+Constraint resolution reached maxIterations without resolving!
+FPS: 840.813
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.182
+Constraint resolution reached maxIterations without resolving!
+FPS: 858.438
+Constraint resolution reached maxIterations without resolving!
+FPS: 2000.18
+Constraint resolution reached maxIterations without resolving!
+FPS: 922.605
+Constraint resolution reached maxIterations without resolving!
+FPS: 952.215
+Constraint resolution reached maxIterations without resolving!
+FPS: 929.897
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.181
+Constraint resolution reached maxIterations without resolving!
+FPS: 927.347
+Constraint resolution reached maxIterations without resolving!
+FPS: 882.81
+Constraint resolution reached maxIterations without resolving!
+FPS: 914.32
+Constraint resolution reached maxIterations without resolving!
+FPS: 641.022
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.282
+Constraint resolution reached maxIterations without resolving!
+FPS: 860.637
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.432
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.992
+Constraint resolution reached maxIterations without resolving!
+FPS: 954.135
+Constraint resolution reached maxIterations without resolving!
+FPS: 925.058
+Constraint resolution reached maxIterations without resolving!
+FPS: 847.232
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.158
+Constraint resolution reached maxIterations without resolving!
+FPS: 1122.87
+Constraint resolution reached maxIterations without resolving!
+FPS: 2809.03
+Constraint resolution reached maxIterations without resolving!
+FPS: 2590.58
+Constraint resolution reached maxIterations without resolving!
+FPS: 2828.17
+Constraint resolution reached maxIterations without resolving!
+FPS: 2665.07
+Constraint resolution reached maxIterations without resolving!
+FPS: 2715.61
+Constraint resolution reached maxIterations without resolving!
+FPS: 2434.19
+Constraint resolution reached maxIterations without resolving!
+FPS: 2786.95
+Constraint resolution reached maxIterations without resolving!
+FPS: 2920.88
+Constraint resolution reached maxIterations without resolving!
+FPS: 2895.1
+Constraint resolution reached maxIterations without resolving!
+FPS: 2748.31
+Constraint resolution reached maxIterations without resolving!
+FPS: 2795.11
+Constraint resolution reached maxIterations without resolving!
+FPS: 2650.73
+Constraint resolution reached maxIterations without resolving!
+FPS: 2754.24
+Constraint resolution reached maxIterations without resolving!
+FPS: 2660.12
+Constraint resolution reached maxIterations without resolving!
+FPS: 930.463
+Constraint resolution reached maxIterations without resolving!
+FPS: 1144.02
+Constraint resolution reached maxIterations without resolving!
+FPS: 2758.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 2517.96
+Constraint resolution reached maxIterations without resolving!
+FPS: 2728.3
+Constraint resolution reached maxIterations without resolving!
+FPS: 2279.2
+Constraint resolution reached maxIterations without resolving!
+FPS: 2673.45
+Constraint resolution reached maxIterations without resolving!
+FPS: 2720.98
+Constraint resolution reached maxIterations without resolving!
+FPS: 2500.79
+Constraint resolution reached maxIterations without resolving!
+FPS: 2350.88
+Constraint resolution reached maxIterations without resolving!
+FPS: 2656.18
+Constraint resolution reached maxIterations without resolving!
+FPS: 2778.03
+Constraint resolution reached maxIterations without resolving!
+FPS: 2487.27
+Constraint resolution reached maxIterations without resolving!
+FPS: 2827.77
+Constraint resolution reached maxIterations without resolving!
+FPS: 2650.92
+Constraint resolution reached maxIterations without resolving!
+FPS: 817.744
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.042
+Constraint resolution reached maxIterations without resolving!
+FPS: 2416.46
+Constraint resolution reached maxIterations without resolving!
+FPS: 2638.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 2789.03
+Constraint resolution reached maxIterations without resolving!
+FPS: 2729.07
+Constraint resolution reached maxIterations without resolving!
+FPS: 2676.19
+Constraint resolution reached maxIterations without resolving!
+FPS: 2289.48
+Constraint resolution reached maxIterations without resolving!
+FPS: 2757.91
+Constraint resolution reached maxIterations without resolving!
+FPS: 2718.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 2738.95
+Constraint resolution reached maxIterations without resolving!
+FPS: 2644.41
+Constraint resolution reached maxIterations without resolving!
+FPS: 945.77
+Constraint resolution reached maxIterations without resolving!
+FPS: 1392.84
+Constraint resolution reached maxIterations without resolving!
+FPS: 1826.17
+Constraint resolution reached maxIterations without resolving!
+FPS: 2730.38
+Constraint resolution reached maxIterations without resolving!
+FPS: 2717.46
+Constraint resolution reached maxIterations without resolving!
+FPS: 2752.14
+Constraint resolution reached maxIterations without resolving!
+FPS: 2710.16
+Constraint resolution reached maxIterations without resolving!
+FPS: 982.614
+Constraint resolution reached maxIterations without resolving!
+FPS: 1391.7
+Constraint resolution reached maxIterations without resolving!
+FPS: 2938.14
+Constraint resolution reached maxIterations without resolving!
+FPS: 2718.78
+Constraint resolution reached maxIterations without resolving!
+FPS: 2637.33
+Constraint resolution reached maxIterations without resolving!
+FPS: 985.741
+Constraint resolution reached maxIterations without resolving!
+FPS: 1965.91
+Constraint resolution reached maxIterations without resolving!
+FPS: 2710.64
+Constraint resolution reached maxIterations without resolving!
+FPS: 2731.73
+Constraint resolution reached maxIterations without resolving!
+FPS: 2236.92
+Constraint resolution reached maxIterations without resolving!
+FPS: 2482.37
+Constraint resolution reached maxIterations without resolving!
+FPS: 2692.74
+Constraint resolution reached maxIterations without resolving!
+FPS: 985.598
+Constraint resolution reached maxIterations without resolving!
+FPS: 1817.74
+Constraint resolution reached maxIterations without resolving!
+FPS: 2485.39
+Constraint resolution reached maxIterations without resolving!
+FPS: 2691.62
+Constraint resolution reached maxIterations without resolving!
+FPS: 2784.76
+Constraint resolution reached maxIterations without resolving!
+FPS: 683.75
+Constraint resolution reached maxIterations without resolving!
+FPS: 1812.2
+Constraint resolution reached maxIterations without resolving!
+FPS: 2477.47
+Constraint resolution reached maxIterations without resolving!
+FPS: 2675.47
+Constraint resolution reached maxIterations without resolving!
+FPS: 2656.76
+Constraint resolution reached maxIterations without resolving!
+FPS: 2661.85
+Constraint resolution reached maxIterations without resolving!
+FPS: 2859.75
+Constraint resolution reached maxIterations without resolving!
+FPS: 2183.79
+Constraint resolution reached maxIterations without resolving!
+FPS: 2693.55
+Constraint resolution reached maxIterations without resolving!
+FPS: 2347.67
+Constraint resolution reached maxIterations without resolving!
+FPS: 2845.7
+Constraint resolution reached maxIterations without resolving!
+FPS: 2791.82
+Constraint resolution reached maxIterations without resolving!
+FPS: 824.466
+Constraint resolution reached maxIterations without resolving!
+FPS: 2201.51
+Constraint resolution reached maxIterations without resolving!
+FPS: 2912.44
+Constraint resolution reached maxIterations without resolving!
+FPS: 2573.14
+Constraint resolution reached maxIterations without resolving!
+FPS: 2228.39
+Constraint resolution reached maxIterations without resolving!
+FPS: 2728.19
+Constraint resolution reached maxIterations without resolving!
+FPS: 2432.87
+Constraint resolution reached maxIterations without resolving!
+FPS: 909.436
+Constraint resolution reached maxIterations without resolving!
+FPS: 1932.51
+Constraint resolution reached maxIterations without resolving!
+FPS: 2802.1
+Constraint resolution reached maxIterations without resolving!
+FPS: 2778.47
+Constraint resolution reached maxIterations without resolving!
+FPS: 2702.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 944.839
+Constraint resolution reached maxIterations without resolving!
+FPS: 1914.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 2744.53
+Constraint resolution reached maxIterations without resolving!
+FPS: 2692.34
+Constraint resolution reached maxIterations without resolving!
+FPS: 2776.16
+Constraint resolution reached maxIterations without resolving!
+FPS: 2738.03
+Constraint resolution reached maxIterations without resolving!
+FPS: 2742.32
+Constraint resolution reached maxIterations without resolving!
+FPS: 2574.79
+Constraint resolution reached maxIterations without resolving!
+FPS: 1237.35
+Constraint resolution reached maxIterations without resolving!
+FPS: 2435.33
+Constraint resolution reached maxIterations without resolving!
+FPS: 1420.49
+Constraint resolution reached maxIterations without resolving!
+FPS: 2635.82
+Constraint resolution reached maxIterations without resolving!
+FPS: 2734.88
+Constraint resolution reached maxIterations without resolving!
+FPS: 2736.52
+Constraint resolution reached maxIterations without resolving!
+FPS: 2320.07
+Constraint resolution reached maxIterations without resolving!
+FPS: 2678.16
+Constraint resolution reached maxIterations without resolving!
+FPS: 2385.3
+Constraint resolution reached maxIterations without resolving!
+FPS: 1398.99
+Constraint resolution reached maxIterations without resolving!
+FPS: 953.834
+Constraint resolution reached maxIterations without resolving!
+FPS: 955.747
+Constraint resolution reached maxIterations without resolving!
+FPS: 942.153
+Constraint resolution reached maxIterations without resolving!
+FPS: 968.097
+Constraint resolution reached maxIterations without resolving!
+FPS: 1907.12
+Constraint resolution reached maxIterations without resolving!
+FPS: 2562.05
+Constraint resolution reached maxIterations without resolving!
+FPS: 2534.67
+Constraint resolution reached maxIterations without resolving!
+FPS: 861.175
+Constraint resolution reached maxIterations without resolving!
+FPS: 858.41
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.9
+Constraint resolution reached maxIterations without resolving!
+FPS: 964.354
+Constraint resolution reached maxIterations without resolving!
+FPS: 933.05
+Constraint resolution reached maxIterations without resolving!
+FPS: 944.045
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.993
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.644
+Constraint resolution reached maxIterations without resolving!
+FPS: 874.049
+Constraint resolution reached maxIterations without resolving!
+FPS: 936.977
+Constraint resolution reached maxIterations without resolving!
+FPS: 967.429
+Constraint resolution reached maxIterations without resolving!
+FPS: 937.958
+Constraint resolution reached maxIterations without resolving!
+FPS: 1789.78
+Constraint resolution reached maxIterations without resolving!
+FPS: 2401.01
+Constraint resolution reached maxIterations without resolving!
+FPS: 2794.5
+Constraint resolution reached maxIterations without resolving!
+FPS: 881.022
+Constraint resolution reached maxIterations without resolving!
+FPS: 913.646
+Constraint resolution reached maxIterations without resolving!
+FPS: 908.675
+Constraint resolution reached maxIterations without resolving!
+FPS: 963.566
+Constraint resolution reached maxIterations without resolving!
+FPS: 922.943
+Constraint resolution reached maxIterations without resolving!
+FPS: 937.282
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.074
+Constraint resolution reached maxIterations without resolving!
+FPS: 943.293
+Constraint resolution reached maxIterations without resolving!
+FPS: 926.689
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.249
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.121
+Constraint resolution reached maxIterations without resolving!
+FPS: 615.781
+Constraint resolution reached maxIterations without resolving!
+FPS: 1253.12
+Constraint resolution reached maxIterations without resolving!
+FPS: 1870.59
+Constraint resolution reached maxIterations without resolving!
+FPS: 2029.06
+Constraint resolution reached maxIterations without resolving!
+FPS: 2034.91
+Constraint resolution reached maxIterations without resolving!
+FPS: 3424.19
+Constraint resolution reached maxIterations without resolving!
+FPS: 2927.63
+Constraint resolution reached maxIterations without resolving!
+FPS: 2993.36
+Constraint resolution reached maxIterations without resolving!
+FPS: 2933.53
+Constraint resolution reached maxIterations without resolving!
+FPS: 2785.85
+Constraint resolution reached maxIterations without resolving!
+FPS: 2889.1
+Constraint resolution reached maxIterations without resolving!
+FPS: 2108.03
+Constraint resolution reached maxIterations without resolving!
+FPS: 957.557
+Constraint resolution reached maxIterations without resolving!
+FPS: 921.474
+Constraint resolution reached maxIterations without resolving!
+FPS: 846.334
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.186
+Constraint resolution reached maxIterations without resolving!
+FPS: 826.738
+Constraint resolution reached maxIterations without resolving!
+FPS: 951.918
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.658
+Constraint resolution reached maxIterations without resolving!
+FPS: 881.305
+Constraint resolution reached maxIterations without resolving!
+FPS: 882.124
+Constraint resolution reached maxIterations without resolving!
+FPS: 887.128
+Constraint resolution reached maxIterations without resolving!
+FPS: 861.96
+Constraint resolution reached maxIterations without resolving!
+FPS: 813.981
+Constraint resolution reached maxIterations without resolving!
+FPS: 952.787
+Constraint resolution reached maxIterations without resolving!
+FPS: 937.105
+Constraint resolution reached maxIterations without resolving!
+FPS: 1834.68
+Constraint resolution reached maxIterations without resolving!
+FPS: 922.176
+Constraint resolution reached maxIterations without resolving!
+FPS: 978.739
+Constraint resolution reached maxIterations without resolving!
+FPS: 830.249
+Constraint resolution reached maxIterations without resolving!
+FPS: 903.479
+Constraint resolution reached maxIterations without resolving!
+FPS: 947.459
+Constraint resolution reached maxIterations without resolving!
+FPS: 828.159
+Constraint resolution reached maxIterations without resolving!
+FPS: 876.135
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.104
+Constraint resolution reached maxIterations without resolving!
+FPS: 886.053
+Constraint resolution reached maxIterations without resolving!
+FPS: 897.926
+Constraint resolution reached maxIterations without resolving!
+FPS: 877.864
+Constraint resolution reached maxIterations without resolving!
+FPS: 894.352
+Constraint resolution reached maxIterations without resolving!
+FPS: 807.405
+Constraint resolution reached maxIterations without resolving!
+FPS: 938.486
+Constraint resolution reached maxIterations without resolving!
+FPS: 860.175
+Constraint resolution reached maxIterations without resolving!
+FPS: 941.362
+Constraint resolution reached maxIterations without resolving!
+FPS: 973.257
+Constraint resolution reached maxIterations without resolving!
+FPS: 937.666
+Constraint resolution reached maxIterations without resolving!
+FPS: 944.458
+Constraint resolution reached maxIterations without resolving!
+FPS: 918.635
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.839
+Constraint resolution reached maxIterations without resolving!
+FPS: 833.359
+Constraint resolution reached maxIterations without resolving!
+FPS: 933.499
+Constraint resolution reached maxIterations without resolving!
+FPS: 869.164
+Constraint resolution reached maxIterations without resolving!
+FPS: 932.227
+Constraint resolution reached maxIterations without resolving!
+FPS: 939.124
+Constraint resolution reached maxIterations without resolving!
+FPS: 933.773
+Constraint resolution reached maxIterations without resolving!
+FPS: 948.552
+Constraint resolution reached maxIterations without resolving!
+FPS: 935.408
+Constraint resolution reached maxIterations without resolving!
+FPS: 934.523
+Constraint resolution reached maxIterations without resolving!
+FPS: 921.232
+Constraint resolution reached maxIterations without resolving!
+FPS: 951.465
+Constraint resolution reached maxIterations without resolving!
+FPS: 956.695
+Constraint resolution reached maxIterations without resolving!
+FPS: 940.829
+Constraint resolution reached maxIterations without resolving!
+FPS: 960.192
+Constraint resolution reached maxIterations without resolving!
+FPS: 898.261

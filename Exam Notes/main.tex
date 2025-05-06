@@ -1,0 +1,128 @@
+% Document class
+\documentclass[a4paper, 8pt]{extarticle}
+
+% Packages
+\usepackage[
+  top=0cm,
+  bottom=0cm,
+  left=0cm,
+  right=0cm,
+]{geometry}
+\usepackage{amsmath, amsfonts, amssymb, amsthm}
+\usepackage{titlesec}
+\usepackage[inline]{enumitem}
+\usepackage{xcolor}
+\usepackage{thmtools}
+\usepackage{setspace}
+\usepackage{mathrsfs}
+\usepackage{tikz-cd}
+
+% Page set up
+\titlespacing*{\subsection}{0pt}{0ex}{0ex}
+\titlespacing*{\subsubsection}{0pt}{0ex}{0ex}
+\setlist[enumerate]{topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex, label=(\roman*)}
+\setlist[itemize]{topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex}
+\setstretch{0}
+\setcounter{secnumdepth}{0}
+
+% Define overbar
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+
+% Define \defeq for :=
+\makeatletter
+\newcommand*{\defeq}{\mathrel{\rlap{%
+                     \raisebox{0.3ex}{$\m@th\cdot$}}%
+                     \raisebox{-0.3ex}{$\m@th\cdot$}}%
+                     =}
+\makeatother
+
+% Default enunmerate to no line breaks
+\renewenvironment{enumerate}{\begin{enumerate*}}{\end{enumerate*}}
+
+% Make emph red
+\let\oldemph\emph
+\renewcommand{\emph}[1]{\textcolor{red}{\oldemph{#1}}}
+
+% Make subsection and subsubsection blue
+\let\oldsubsection\subsection
+\renewcommand{\subsection}[1]{\textcolor{blue!70!black}{\oldsubsection{#1}}}
+\let\oldsubsubsection\subsubsection
+\renewcommand{\subsubsection}[1]{\textcolor{blue!70!black}{\oldsubsubsection{#1}}}
+
+% Redefine phi and epsilon to their variants
+\renewcommand{\phi}[0]{\varphi}
+\renewcommand{\epsilon}[0]{\varepsilon}
+
+% Redefine \implies, \impliedby and \iff to be shorter
+\renewcommand{\implies}[0]{\Rightarrow}
+\renewcommand{\impliedby}[0]{\Leftarrow}
+\renewcommand{\iff}[0]{\Leftrightarrow}
+
+% Define theorem style
+\declaretheoremstyle[
+  postheadspace=0.5em,
+  spaceabove=0em,
+  spacebelow=0em,
+  headfont=\color{purple!60!blue}\normalfont\bfseries,
+  headpunct=\textcolor{black}{.},
+  bodyfont=\normalfont,
+]{colored_theorem}
+
+% Define theorem-like (prop, lem, cor) style
+\declaretheoremstyle[
+  postheadspace=0.5em,
+  spaceabove=0em,
+  spacebelow=0em,
+  headfont=\color{blue}\normalfont\bfseries,
+  headpunct=\textcolor{black}{.},
+  bodyfont=\normalfont,
+]{colored}
+
+% Define example style
+\declaretheoremstyle[
+  postheadspace=0.5em,
+  spaceabove=0em,
+  spacebelow=0em,
+  headfont=\color{orange}\normalfont\bfseries,
+  headpunct=\textcolor{black}{.},
+  bodyfont=\normalfont,
+]{example_environment}
+
+\makeatletter
+\def\thm@space@setup{\thm@preskip=0pt
+\thm@postskip=0pt}
+\makeatother
+
+% Definition
+\theoremstyle{definition}
+\newtheorem*{definition}{Definition}
+
+% Remark
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+% Theorem
+\theoremstyle{colored_theorem}
+\newtheorem*{theorem}{\textcolor{black}{Theorem}}
+
+% Corollary
+\theoremstyle{colored}
+\newtheorem*{corollary}{\textcolor{black}{Corollary}}
+
+% Lemma
+\theoremstyle{colored}
+\newtheorem*{lemma}{\textcolor{black}{Lemma}}
+
+% Proposition
+\theoremstyle{colored}
+\newtheorem*{prop}{\textcolor{black}{Proposition}}
+
+% Example
+\theoremstyle{example_environment}
+\newtheorem*{example}{\textcolor{black}{Example}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+
+\end{document}
