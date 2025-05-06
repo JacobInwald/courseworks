@@ -1,0 +1,6 @@
+[submodule "Dissertation"]
+	path = Dissertation
+	url = https://github.com/JacobInwald/CRATE
+[submodule "SDP/project"]
+	path = SDP/project
+	url = https://github.com/JacobInwald/DORA
